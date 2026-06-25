@@ -7,3 +7,5 @@ _autosave-*
 build/
 __pycache__/
 *.pyc
+*.kicad_prl
+kicad/openrb/*-bak
