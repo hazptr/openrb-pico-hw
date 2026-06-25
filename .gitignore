@@ -2,7 +2,10 @@ _autosave-*
 *-bak
 build/
 fp-info-cache
+**/.history/
+.history/
 kicad/openrb/*-bak
+kicad/openrb/.history/
 *.kicad_pcb-bak
 *.kicad_prl
 *.kicad_sch-bak
