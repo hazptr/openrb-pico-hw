@@ -1,0 +1,362 @@
+(kicad_sch
+	(version 20250114)
+	(generator "openrb_gen")(generator_version "10.0")
+	(uuid "4f868f06-87d2-414c-b3ac-087ce573db50")
+	(paper "A1")
+	(lib_symbols
+(symbol "openrb:0402WGF2200TCE"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "0402WGF2200TCE"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "openrb:R0402"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C25091.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "UNI-ROYAL(厚声)"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "0402WGF2200TCE"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C25091"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "Resistors"
+      (id 8)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_description"
+      "220Ω (2200) ±1%"
+      (id 9)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "0402WGF2200TCE_0_1"
+      (rectangle
+        (start -2.54 1.02)
+        (end 2.54 -1.02)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (pin input line
+        (at 5.08 -0.00 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -5.08 -0.00 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+(symbol "openrb:1N4148WS_C402214"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "D"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "1N4148WS_C402214"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "openrb:SOD-323_L1.8-W1.3-LS2.5-RD"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Switching-Diode_LGE-1N4148WS_C402214.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "LGE(鲁光)"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "1N4148WS"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C402214"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "Switching Diode"
+      (id 8)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "1N4148WS_C402214_0_1"
+      (polyline
+        (pts
+          (xy 1.27 1.52) (xy -1.27 -0.00) (xy 1.27 -1.78) (xy 1.27 1.52)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.78) (xy -1.27 -1.78)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at 5.08 -0.00 180)
+        (length 3.81)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -5.08 -0.00 0)
+        (length 3.81)
+        (name "C" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+(symbol "openrb:H11L1"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "H11L1"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "openrb:DIP-6_L8.5-W6.4-P2.54-LS7.6-BL"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/DIP-Optocouplers_H11L1_C78588.html"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "EVERLIGHT(亿光)"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "H11L1"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C78588"
+      (id 6)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "Optocouplers - Phototransistor Output"
+      (id 8)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_description"
+      "H11L1"
+      (id 9)
+      (at 0 -25.40 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "H11L1_0_1"
+      (rectangle
+        (start -7.62 5.08)
+        (end 7.62 -5.08)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at -12.70 -2.54 0)
+        (length 5.08)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 12.70 -2.54 180)
+        (length 5.08)
+        (name "VO" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -12.70 2.54 0)
+        (length 5.08)
+        (name "AN" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -12.70 -0.00 0)
+        (length 5.08)
+        (name "CAT" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 12.70 -0.00 180)
+        (length 5.08)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 12.70 2.54 180)
+        (length 5.08)
+        (name "VCC" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+(symbol "openrb:MIDI_TRS"
+  (pin_names (offset 1.016))(exclude_from_sim no)(in_bom yes)(on_board yes)
+  (property "Reference" "J" (at 0 6.35 0)(effects (font (size 1.27 1.27))))
+  (property "Value" "MIDI_TRS" (at 0 -7.62 0)(effects (font (size 1.27 1.27))))
+  (property "Footprint" "" (at 0 0 0)(effects (font (size 1.27 1.27))(hide yes)))
+  (symbol "MIDI_TRS_0_1"
+    (rectangle (start -2.54 3.81)(end 2.54 -5.08)(stroke (width 0.254)(type default))(fill (type none))))
+  (symbol "MIDI_TRS_1_1"
+    (pin passive line (at -7.62 2.54 0)(length 5.08)(name "TIP" (effects (font (size 1.27 1.27))))(number "1" (effects (font (size 1.27 1.27)))))
+    (pin passive line (at -7.62 0 0)(length 5.08)(name "RING" (effects (font (size 1.27 1.27))))(number "2" (effects (font (size 1.27 1.27)))))
+    (pin passive line (at -7.62 -2.54 0)(length 5.08)(name "SLEEVE" (effects (font (size 1.27 1.27))))(number "3" (effects (font (size 1.27 1.27))))))
+)
+	)
+	(text "SERIAL MIDI INPUT" (at 30.00 30.00 0)(effects (font (size 2.0 2.0)(bold yes))(justify left))(uuid "4aa7222a-ae93-4a4a-a793-c7d51a2331ce"))
+	(symbol (lib_id "openrb:MIDI_TRS") (at 63.62 56.54 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "e22b5f1b-b60c-4084-8591-cdeac133c68f")
+		(property "Reference" "MIDI" (at 63.62 54.00 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "CP-2350" (at 63.62 59.08 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 63.62 56.54 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/39f28e55-6307-4647-96e2-553b9090d6b4" (reference "MIDI")(unit 1))))
+	)
+	(symbol (lib_id "openrb:H11L1") (at 134.70 56.54 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "8e9abd65-b4b7-474e-b7c2-935c53393150")
+		(property "Reference" "U6" (at 134.70 54.00 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "H11L1" (at 134.70 59.08 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:DIP-6_L8.5-W6.4-P2.54-LS7.6-BL" (at 134.70 56.54 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/39f28e55-6307-4647-96e2-553b9090d6b4" (reference "U6")(unit 1))))
+	)
+	(symbol (lib_id "openrb:1N4148WS_C402214") (at 218.48 54.00 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "42e91e64-f65e-424e-8090-e630c9e2235c")
+		(property "Reference" "D1" (at 218.48 51.46 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "1N4148WS" (at 218.48 56.54 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:SOD-323_L1.8-W1.3-LS2.5-RD" (at 218.48 54.00 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/39f28e55-6307-4647-96e2-553b9090d6b4" (reference "D1")(unit 1))))
+	)
+	(symbol (lib_id "openrb:0402WGF2200TCE") (at 294.64 54.00 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "ca4b7efb-103b-4c15-8d13-127e9c763c3e")
+		(property "Reference" "R2" (at 294.64 51.46 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "220" (at 294.64 56.54 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:R0402" (at 294.64 54.00 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/39f28e55-6307-4647-96e2-553b9090d6b4" (reference "R2")(unit 1))))
+	)
+	(symbol (lib_id "openrb:0402WGF2200TCE") (at 370.80 54.00 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "03a271b0-a038-47c3-9478-395c54cf8e0a")
+		(property "Reference" "R4" (at 370.80 51.46 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "470" (at 370.80 56.54 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:R0402" (at 370.80 54.00 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/39f28e55-6307-4647-96e2-553b9090d6b4" (reference "R4")(unit 1))))
+	)
+	(global_label "MIDI_IN" (shape passive) (at 56.00 54.00 180)(effects (font (size 1.27 1.27))(justify right))(uuid "9031d289-94a7-4518-b404-a02f10932711"))
+	(global_label "MIDI_K" (shape passive) (at 56.00 56.54 180)(effects (font (size 1.27 1.27))(justify right))(uuid "4fc6b660-0ba6-4d29-aa2b-663ac7c0a981"))
+	(global_label "GND" (shape passive) (at 56.00 59.08 180)(effects (font (size 1.27 1.27))(justify right))(uuid "dbc26a08-0ade-487e-9d2f-add64dd0b8db"))
+	(global_label "MIDI_RX" (shape passive) (at 147.40 59.08 0)(effects (font (size 1.27 1.27))(justify left))(uuid "8945270d-e6c4-44fc-9b93-47a473f9210f"))
+	(global_label "MIDI_A" (shape passive) (at 122.00 54.00 180)(effects (font (size 1.27 1.27))(justify right))(uuid "f198c409-826c-4507-ad0a-5ba6f5534f48"))
+	(global_label "MIDI_K" (shape passive) (at 122.00 56.54 180)(effects (font (size 1.27 1.27))(justify right))(uuid "b1b9e954-0c08-48bd-b39e-631a6ae71152"))
+	(global_label "GND" (shape passive) (at 147.40 56.54 0)(effects (font (size 1.27 1.27))(justify left))(uuid "c39b786b-103c-40d7-8471-2433eaf0f210"))
+	(global_label "+3V3" (shape passive) (at 147.40 54.00 0)(effects (font (size 1.27 1.27))(justify left))(uuid "e185a49d-a407-4f1d-b0e1-38ce7368b371"))
+	(global_label "MIDI_K" (shape passive) (at 223.56 54.00 0)(effects (font (size 1.27 1.27))(justify left))(uuid "f680189e-e3f4-428c-a719-2514d88ff685"))
+	(global_label "MIDI_A" (shape passive) (at 213.40 54.00 180)(effects (font (size 1.27 1.27))(justify right))(uuid "5fdceb83-9288-413a-b02f-4d60808a9b01"))
+	(global_label "MIDI_A" (shape passive) (at 299.72 54.00 0)(effects (font (size 1.27 1.27))(justify left))(uuid "f0f4ed5c-d661-4575-a04b-0d64cb0f78a0"))
+	(global_label "MIDI_IN" (shape passive) (at 289.56 54.00 180)(effects (font (size 1.27 1.27))(justify right))(uuid "7274d995-1d86-4640-95f8-94f415b4b02d"))
+	(global_label "+3V3" (shape passive) (at 375.88 54.00 0)(effects (font (size 1.27 1.27))(justify left))(uuid "52c77771-4584-415c-a2e4-fff77b5cd438"))
+	(global_label "MIDI_RX" (shape passive) (at 365.72 54.00 180)(effects (font (size 1.27 1.27))(justify right))(uuid "eee3cf13-cc5a-4faf-90e1-bf50fb2f26a6"))
+	(no_connect (at 122.00 59.08)(uuid "f7980017-a433-41ee-9df0-ce969ccdc59e"))
+)

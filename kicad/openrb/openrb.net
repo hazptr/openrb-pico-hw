@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/home/delabrcd/dev/openrb-hardware/kicad/openrb/openrb.kicad_sch")
-		(date "2026-06-25T16:21:23")
+		(date "2026-06-25T16:35:16")
 		(tool "Eeschema 10.0.0-1.fc44")
 		(sheet
 			(number "1")
@@ -52,8 +52,1110 @@
 				)
 			)
 		)
+		(sheet
+			(number "2")
+			(name "/USB/")
+			(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "usb.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "3")
+			(name "/MCU/")
+			(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "mcu.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "4")
+			(name "/MIDI/")
+			(tstamps "/39f28e55-6307-4647-96e2-553b9090d6b4/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "midi.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
 	)
 	(components
+		(comp
+			(ref "C12")
+			(value "100uF")
+			(footprint "openrb:CASE-B_3528")
+			(fields
+				(field
+					(name "Footprint") "openrb:CASE-B_3528")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "TAJB107K006RNJ")
+				(description "100uF (107) ±10% 6.3V")
+			)
+			(property
+				(name "Sheetname")
+				(value "USB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "usb.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Tantalum Capacitors")
+			)
+			(sheetpath
+				(names "/USB/")
+				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+			)
+			(tstamps "2f3d5ab7-fa3d-4eae-a760-74e775cf3285")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C13")
+			(value "100uF")
+			(footprint "openrb:CASE-B_3528")
+			(fields
+				(field
+					(name "Footprint") "openrb:CASE-B_3528")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "TAJB107K006RNJ")
+				(description "100uF (107) ±10% 6.3V")
+			)
+			(property
+				(name "Sheetname")
+				(value "USB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "usb.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Tantalum Capacitors")
+			)
+			(sheetpath
+				(names "/USB/")
+				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+			)
+			(tstamps "2c22adb4-3e2c-488e-afb5-15d88283748b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C14")
+			(value "100uF")
+			(footprint "openrb:CASE-B_3528")
+			(fields
+				(field
+					(name "Footprint") "openrb:CASE-B_3528")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "TAJB107K006RNJ")
+				(description "100uF (107) ±10% 6.3V")
+			)
+			(property
+				(name "Sheetname")
+				(value "USB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "usb.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Tantalum Capacitors")
+			)
+			(sheetpath
+				(names "/USB/")
+				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+			)
+			(tstamps "24dbe116-0a21-49a4-bb71-cbdde3037733")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C17")
+			(value "100uF")
+			(footprint "openrb:CASE-B_3528")
+			(fields
+				(field
+					(name "Footprint") "openrb:CASE-B_3528")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "TAJB107K006RNJ")
+				(description "100uF (107) ±10% 6.3V")
+			)
+			(property
+				(name "Sheetname")
+				(value "USB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "usb.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Tantalum Capacitors")
+			)
+			(sheetpath
+				(names "/USB/")
+				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+			)
+			(tstamps "43c62960-756b-4388-80ea-21aaab66300a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C19")
+			(value "1uF")
+			(footprint "openrb:C0402")
+			(fields
+				(field
+					(name "Footprint") "openrb:C0402")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "CL05A105KQ5NNNC")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "USB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "usb.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/USB/")
+				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+			)
+			(tstamps "2a3caa57-a248-4eaa-a777-898eccd19314")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C20")
+			(value "1uF")
+			(footprint "openrb:C0402")
+			(fields
+				(field
+					(name "Footprint") "openrb:C0402")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "CL05A105KQ5NNNC")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "USB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "usb.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/USB/")
+				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+			)
+			(tstamps "f938cb4f-69fd-4ddd-bcb5-f363c1a87e12")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "USBLC6-2SC6")
+			(footprint "openrb:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL")
+			(fields
+				(field
+					(name "Footprint") "openrb:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "USBLC6-2SC6_C2827654")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "USB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "usb.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "ESD Protection Devices")
+			)
+			(sheetpath
+				(names "/USB/")
+				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+			)
+			(tstamps "d9d781cb-6ca4-4583-9d40-36bfa666cccd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "5.1k")
+			(footprint "openrb:R0402")
+			(fields
+				(field
+					(name "Footprint") "openrb:R0402")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "0402WGF2200TCE")
+				(description "220Ω (2200) ±1%")
+			)
+			(property
+				(name "Sheetname")
+				(value "USB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "usb.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Resistors")
+			)
+			(sheetpath
+				(names "/USB/")
+				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+			)
+			(tstamps "9810c141-01eb-425e-82eb-fa4b2ac44b5e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "5.1k")
+			(footprint "openrb:R0402")
+			(fields
+				(field
+					(name "Footprint") "openrb:R0402")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "0402WGF2200TCE")
+				(description "220Ω (2200) ±1%")
+			)
+			(property
+				(name "Sheetname")
+				(value "USB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "usb.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Resistors")
+			)
+			(sheetpath
+				(names "/USB/")
+				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+			)
+			(tstamps "362103e1-efa9-4b50-ac18-029667772a54")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R14")
+			(value "22")
+			(footprint "openrb:R0402")
+			(fields
+				(field
+					(name "Footprint") "openrb:R0402")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "0402WGF2200TCE")
+				(description "220Ω (2200) ±1%")
+			)
+			(property
+				(name "Sheetname")
+				(value "USB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "usb.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Resistors")
+			)
+			(sheetpath
+				(names "/USB/")
+				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+			)
+			(tstamps "92b419bb-026f-4a3f-9dbf-904c32a9faef")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R15")
+			(value "22")
+			(footprint "openrb:R0402")
+			(fields
+				(field
+					(name "Footprint") "openrb:R0402")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "0402WGF2200TCE")
+				(description "220Ω (2200) ±1%")
+			)
+			(property
+				(name "Sheetname")
+				(value "USB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "usb.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Resistors")
+			)
+			(sheetpath
+				(names "/USB/")
+				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+			)
+			(tstamps "10f476bd-871b-4b64-bddd-de8d81a0c139")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "CH334R")
+			(footprint "openrb:QSOP-16_L4.9-W3.9-P0.64-LS6.0-BL")
+			(fields
+				(field
+					(name "Footprint") "openrb:QSOP-16_L4.9-W3.9-P0.64-LS6.0-BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "CH334R")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "USB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "usb.kicad_sch")
+			)
+			(sheetpath
+				(names "/USB/")
+				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+			)
+			(tstamps "e4e8b2a1-c6c7-4432-b360-a3bd4b28894b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "USB0")
+			(value "UB1112C")
+			(footprint "openrb:USB-A-TH_UB1112C-8FDE-4F")
+			(fields
+				(field
+					(name "Footprint") "openrb:USB-A-TH_UB1112C-8FDE-4F")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "UB1112C-8FDE-4F")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "USB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "usb.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "USB Connectors")
+			)
+			(sheetpath
+				(names "/USB/")
+				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+			)
+			(tstamps "44f4c996-0224-4051-90be-47185e963e60")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "USB1")
+			(value "UB1112C")
+			(footprint "openrb:USB-A-TH_UB1112C-8FDE-4F")
+			(fields
+				(field
+					(name "Footprint") "openrb:USB-A-TH_UB1112C-8FDE-4F")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "UB1112C-8FDE-4F")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "USB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "usb.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "USB Connectors")
+			)
+			(sheetpath
+				(names "/USB/")
+				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+			)
+			(tstamps "c2c6f087-869e-4d35-ad2c-d3cc7673083b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "USBC1")
+			(value "USB-C")
+			(footprint "openrb:USB-C_SMD-TYPE-C-31-M-12_1")
+			(fields
+				(field
+					(name "Footprint") "openrb:USB-C_SMD-TYPE-C-31-M-12_1")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "TYPE-C-31-M-12")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "USB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "usb.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "USB Connectors")
+			)
+			(sheetpath
+				(names "/USB/")
+				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+			)
+			(tstamps "f303fb6c-8ebf-45f9-9e02-3ec855a97912")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "A1B12")
+						)
+						(pin
+							(num "A4B9")
+						)
+						(pin
+							(num "B8")
+						)
+						(pin
+							(num "A5")
+						)
+						(pin
+							(num "B7")
+						)
+						(pin
+							(num "A6")
+						)
+						(pin
+							(num "A7")
+						)
+						(pin
+							(num "B6")
+						)
+						(pin
+							(num "A8")
+						)
+						(pin
+							(num "B5")
+						)
+						(pin
+							(num "B4A9")
+						)
+						(pin
+							(num "B1A12")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "X2")
+			(value "12MHz")
+			(footprint "openrb:CRYSTAL-SMD_4P-L3.2-W2.5-BL")
+			(fields
+				(field
+					(name "Footprint") "openrb:CRYSTAL-SMD_4P-L3.2-W2.5-BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "X322512MSB4SI")
+				(description "YSX321SL 12MHZ 20PF 10PPM -40~+85℃")
+			)
+			(property
+				(name "Sheetname")
+				(value "USB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "usb.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Crystals")
+			)
+			(sheetpath
+				(names "/USB/")
+				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+			)
+			(tstamps "19ee7a72-661b-4380-a91c-fbe9abae3f91")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
 		(comp
 			(ref "BOOT")
 			(value "BOOT")
@@ -75,21 +1177,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Tactile Switches")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "2eaa0c3d-32ab-43b9-9589-2c4d612bd49e")
+			(tstamps "31822948-a7af-4c89-9ab6-d99575d3cffd")
 			(units
 				(unit
 					(name "A")
@@ -131,21 +1233,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "8f8ca124-8634-4b7d-9186-3d1f9cda8cb1")
+			(tstamps "a500fa87-d31b-428a-814f-e27e7777318c")
 			(units
 				(unit
 					(name "A")
@@ -181,21 +1283,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "3b2ebc90-d466-4d98-a7c6-c24bd1633595")
+			(tstamps "d554efb7-9dd0-4911-860a-dd76fef279fd")
 			(units
 				(unit
 					(name "A")
@@ -231,21 +1333,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "8826e218-da59-4f53-b139-9d1df60e0f79")
+			(tstamps "ff9b519d-7893-43ac-9350-1212e5cbe999")
 			(units
 				(unit
 					(name "A")
@@ -281,21 +1383,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "b9aa7914-3d7b-4a66-b8ee-07b5057a5c50")
+			(tstamps "f765b0af-7acd-43a7-881a-bb2f5a9deee9")
 			(units
 				(unit
 					(name "A")
@@ -331,21 +1433,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "852cece8-f941-4f4c-bb80-f4816df559dc")
+			(tstamps "87aca4f3-3561-46cf-85e2-2fa286f125eb")
 			(units
 				(unit
 					(name "A")
@@ -381,21 +1483,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "a10a4240-77e3-4db0-82b4-f3e914dd7ff1")
+			(tstamps "8b036103-3587-4c42-9f7b-396c3d438cd3")
 			(units
 				(unit
 					(name "A")
@@ -431,21 +1533,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "c9b9cbde-69a5-4316-868a-1e13355670a0")
+			(tstamps "bbac00f9-66a4-4e71-9372-440738b54501")
 			(units
 				(unit
 					(name "A")
@@ -481,21 +1583,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "2b0f4459-5d0d-4b45-a692-db36fc416503")
+			(tstamps "2b47a26d-1100-4753-9855-1a0cb6003efc")
 			(units
 				(unit
 					(name "A")
@@ -531,21 +1633,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "5becbc60-a6fd-4274-9eb9-e16a6a176d0b")
+			(tstamps "6660751d-3814-4282-af81-9c4e1c8f641f")
 			(units
 				(unit
 					(name "A")
@@ -581,21 +1683,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "f59aba0f-41d9-4ab1-9f73-9270320a5ff8")
+			(tstamps "37a4bf2a-6af9-44b8-9c34-08d4ad7d0cb1")
 			(units
 				(unit
 					(name "A")
@@ -631,21 +1733,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "3f2ded8b-4fa6-43bc-85ed-a9b5ef2a99ee")
+			(tstamps "d3b10b47-fb29-4bd5-9f3c-67d913eda87b")
 			(units
 				(unit
 					(name "A")
@@ -655,156 +1757,6 @@
 						)
 						(pin
 							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C12")
-			(value "100uF")
-			(footprint "openrb:CASE-B_3528")
-			(fields
-				(field
-					(name "Footprint") "openrb:CASE-B_3528")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "TAJB107K006RNJ")
-				(description "100uF (107) ±10% 6.3V")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "Tantalum Capacitors")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "3a0a2043-9638-4ddd-8ef1-9eebcbad7db0")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C13")
-			(value "100uF")
-			(footprint "openrb:CASE-B_3528")
-			(fields
-				(field
-					(name "Footprint") "openrb:CASE-B_3528")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "TAJB107K006RNJ")
-				(description "100uF (107) ±10% 6.3V")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "Tantalum Capacitors")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "fdc675e7-a81b-4fe2-b906-705c596d0dd1")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C14")
-			(value "100uF")
-			(footprint "openrb:CASE-B_3528")
-			(fields
-				(field
-					(name "Footprint") "openrb:CASE-B_3528")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "TAJB107K006RNJ")
-				(description "100uF (107) ±10% 6.3V")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "Tantalum Capacitors")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "677fe340-db41-4cef-bc5a-ba0c0945af87")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
 						)
 					)
 				)
@@ -831,21 +1783,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "70feddee-d71e-451f-9947-69ce76aa19cd")
+			(tstamps "bce959b0-4ca3-4dda-95db-6b792b9c56a1")
 			(units
 				(unit
 					(name "A")
@@ -881,21 +1833,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "faf5cdcb-6718-414d-afe2-1d24071adbf9")
+			(tstamps "9df1893e-ab37-4150-87f7-fe13a3cbe873")
 			(units
 				(unit
 					(name "A")
@@ -905,56 +1857,6 @@
 						)
 						(pin
 							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C17")
-			(value "100uF")
-			(footprint "openrb:CASE-B_3528")
-			(fields
-				(field
-					(name "Footprint") "openrb:CASE-B_3528")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "TAJB107K006RNJ")
-				(description "100uF (107) ±10% 6.3V")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "Tantalum Capacitors")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "e590fac1-b36f-43d0-920a-8ef5b07f267d")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
 						)
 					)
 				)
@@ -981,21 +1883,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "db1f5082-5d64-45fc-ab1b-36d286633c07")
+			(tstamps "f480ab38-2037-4059-a035-9d01650b3958")
 			(units
 				(unit
 					(name "A")
@@ -1005,218 +1907,6 @@
 						)
 						(pin
 							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C19")
-			(value "1uF")
-			(footprint "openrb:C0402")
-			(fields
-				(field
-					(name "Footprint") "openrb:C0402")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "CL05A105KQ5NNNC")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "17101787-2dbe-4181-aa8d-616df01b41fc")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C20")
-			(value "1uF")
-			(footprint "openrb:C0402")
-			(fields
-				(field
-					(name "Footprint") "openrb:C0402")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "CL05A105KQ5NNNC")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "ccb5f358-af7e-4d08-96e4-ac10a7014af9")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "D1")
-			(value "1N4148WS")
-			(footprint "openrb:SOD-323_L1.8-W1.3-LS2.5-RD")
-			(fields
-				(field
-					(name "Footprint") "openrb:SOD-323_L1.8-W1.3-LS2.5-RD")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "1N4148WS_C402214")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "Switching Diode")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "368b4370-7f31-490f-8aca-7c7a8c229dc9")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "D2")
-			(value "USBLC6-2SC6")
-			(footprint "openrb:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL")
-			(fields
-				(field
-					(name "Footprint") "openrb:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "USBLC6-2SC6_C2827654")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "ESD Protection Devices")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "2e0c109b-adb8-42c0-96e5-8e881343614f")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "6")
-						)
-						(pin
-							(num "5")
-						)
-						(pin
-							(num "4")
 						)
 					)
 				)
@@ -1243,21 +1933,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Resettable Fuses")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "19e897cc-f835-402f-9046-f148a2044146")
+			(tstamps "76acb131-9a8b-4bb2-91bf-cab43588f10a")
 			(units
 				(unit
 					(name "A")
@@ -1293,21 +1983,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Pin Headers")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "9022a7d8-3a46-421d-9215-74db9cc500b0")
+			(tstamps "faee2363-3909-4d0a-aeac-9b5238f2b97b")
 			(units
 				(unit
 					(name "A")
@@ -1343,21 +2033,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Light Emitting Diodes (LED)")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "592ad103-c0bb-401d-8380-d2b1b03f20c0")
+			(tstamps "d09daa1a-0485-4130-a842-350e8c5003ee")
 			(units
 				(unit
 					(name "A")
@@ -1393,21 +2083,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Light Emitting Diodes (LED)")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "7a6bc356-b4df-4733-887d-540ac98edfdf")
+			(tstamps "a21b36a6-2b1a-4872-9f74-4e47aa940d3b")
 			(units
 				(unit
 					(name "A")
@@ -1443,21 +2133,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Light Emitting Diodes (LED)")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "27b2fccf-92f0-4877-a055-2765d756a649")
+			(tstamps "9c5f566f-f62b-476a-bbfe-7c40a9996850")
 			(units
 				(unit
 					(name "A")
@@ -1467,255 +2157,6 @@
 						)
 						(pin
 							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "MIDI")
-			(value "CP-2350")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "MIDI_TRS")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "4eb1eab1-427d-488b-9119-e14d6d805f2f")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "3")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R1")
-			(value "5.1k")
-			(footprint "openrb:R0402")
-			(fields
-				(field
-					(name "Footprint") "openrb:R0402")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "0402WGF2200TCE")
-				(description "220Ω (2200) ±1%")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "Resistors")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "e38db9a6-9ab6-4ac4-829c-e069059da273")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R2")
-			(value "220")
-			(footprint "openrb:R0402")
-			(fields
-				(field
-					(name "Footprint") "openrb:R0402")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "0402WGF2200TCE")
-				(description "220Ω (2200) ±1%")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "Resistors")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "06ae9a89-7c5e-4026-bc92-516582eb582e")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R3")
-			(value "5.1k")
-			(footprint "openrb:R0402")
-			(fields
-				(field
-					(name "Footprint") "openrb:R0402")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "0402WGF2200TCE")
-				(description "220Ω (2200) ±1%")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "Resistors")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "1ae6b89f-abda-47fc-9103-b034eb049cf6")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R4")
-			(value "470")
-			(footprint "openrb:R0402")
-			(fields
-				(field
-					(name "Footprint") "openrb:R0402")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "0402WGF2200TCE")
-				(description "220Ω (2200) ±1%")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "Resistors")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "759e2976-b63f-4107-9809-85b9dc14573d")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
 						)
 					)
 				)
@@ -1742,21 +2183,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Resistors")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "240b33ec-d45c-4a3c-9df2-7fe2c02b1697")
+			(tstamps "ea5b9366-af82-4608-ba72-46539895e9d1")
 			(units
 				(unit
 					(name "A")
@@ -1792,21 +2233,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Resistors")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "c8f1f60a-1d42-4c4b-835f-547dff016d41")
+			(tstamps "68cf2f59-efa5-4196-867b-a78b64a8f070")
 			(units
 				(unit
 					(name "A")
@@ -1842,21 +2283,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Resistors")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "70749133-7952-4ebd-85cd-2f6a6a007878")
+			(tstamps "b833f81c-dba9-431e-af84-a96f67a123cf")
 			(units
 				(unit
 					(name "A")
@@ -1892,21 +2333,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Resistors")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "296a0f12-494c-49f3-a1ae-6c530c478062")
+			(tstamps "21323357-a622-4519-9dd6-894949d46fc6")
 			(units
 				(unit
 					(name "A")
@@ -1942,21 +2383,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Resistors")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "c1e623be-b836-4410-9db8-79d87d3fb3ae")
+			(tstamps "0e4cf945-1f99-4e1b-8822-a894cd78dacc")
 			(units
 				(unit
 					(name "A")
@@ -1992,21 +2433,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Resistors")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "93ce9263-b967-4775-90b6-d970fab29722")
+			(tstamps "9377aab3-e70b-40f2-8edf-2666846a57a0")
 			(units
 				(unit
 					(name "A")
@@ -2042,21 +2483,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Resistors")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "d8db0536-f74e-42dc-acac-d30151bf48ca")
+			(tstamps "a0c3fabd-a455-4f15-ac1b-925f8ae197d9")
 			(units
 				(unit
 					(name "A")
@@ -2092,121 +2533,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Resistors")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "d5532bda-ef54-4e87-b0d0-bc33f6fb518f")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R14")
-			(value "22")
-			(footprint "openrb:R0402")
-			(fields
-				(field
-					(name "Footprint") "openrb:R0402")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "0402WGF2200TCE")
-				(description "220Ω (2200) ±1%")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "Resistors")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "3a47fbe7-174b-4136-a83e-f266ed2e314e")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R15")
-			(value "22")
-			(footprint "openrb:R0402")
-			(fields
-				(field
-					(name "Footprint") "openrb:R0402")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "0402WGF2200TCE")
-				(description "220Ω (2200) ±1%")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "Resistors")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "7ca55e2d-7590-4957-a579-2d8fe44977be")
+			(tstamps "6d47deba-739d-43fd-ac86-0b0cd21127b6")
 			(units
 				(unit
 					(name "A")
@@ -2242,21 +2583,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Tactile Switches")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "c9d08b8c-beb4-4062-98cf-79f11abb3b9e")
+			(tstamps "50433c4f-6e5f-4d4d-add8-05b4712bfb0e")
 			(units
 				(unit
 					(name "A")
@@ -2298,21 +2639,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Pin Headers")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "2155c502-ce85-4d8e-9094-ca62df6e6c83")
+			(tstamps "a0453e17-f763-4f2d-b17e-39b16e264f95")
 			(units
 				(unit
 					(name "A")
@@ -2351,21 +2692,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Other Processors and Microcontrollers (MCUs)")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "412090c3-e9f4-4a33-aa8a-df4fdac7459d")
+			(tstamps "282b1707-60cc-48c9-aef8-27cc95bca144")
 			(units
 				(unit
 					(name "A")
@@ -2546,94 +2887,6 @@
 			)
 		)
 		(comp
-			(ref "U2")
-			(value "CH334R")
-			(footprint "openrb:QSOP-16_L4.9-W3.9-P0.64-LS6.0-BL")
-			(fields
-				(field
-					(name "Footprint") "openrb:QSOP-16_L4.9-W3.9-P0.64-LS6.0-BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "CH334R")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "c92d4608-08f1-4cef-a82d-20c4c055872a")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "5")
-						)
-						(pin
-							(num "6")
-						)
-						(pin
-							(num "7")
-						)
-						(pin
-							(num "8")
-						)
-						(pin
-							(num "16")
-						)
-						(pin
-							(num "15")
-						)
-						(pin
-							(num "14")
-						)
-						(pin
-							(num "13")
-						)
-						(pin
-							(num "12")
-						)
-						(pin
-							(num "11")
-						)
-						(pin
-							(num "10")
-						)
-						(pin
-							(num "9")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "U4")
 			(value "RT9080-33")
 			(footprint "openrb:TSOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL")
@@ -2654,21 +2907,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Linear Voltage Regulators (LDO)")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "685810c9-b362-4a4d-9981-47924cdb6b79")
+			(tstamps "07b6c4b9-c7cf-4eca-b00f-6e79a362db6d")
 			(units
 				(unit
 					(name "A")
@@ -2713,21 +2966,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "NOR FLASH")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "a29aa0b2-b542-4045-ba22-4f61632b4734")
+			(tstamps "59b9252b-063e-4a59-8603-a0fccba3c949")
 			(units
 				(unit
 					(name "A")
@@ -2758,68 +3011,6 @@
 						)
 						(pin
 							(num "5")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "U6")
-			(value "H11L1")
-			(footprint "openrb:DIP-6_L8.5-W6.4-P2.54-LS7.6-BL")
-			(fields
-				(field
-					(name "Footprint") "openrb:DIP-6_L8.5-W6.4-P2.54-LS7.6-BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "H11L1")
-				(description "H11L1")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "Optocouplers - Phototransistor Output")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "66c2b364-64b0-4545-ae74-a101467c228f")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "6")
-						)
-						(pin
-							(num "5")
-						)
-						(pin
-							(num "4")
 						)
 					)
 				)
@@ -2846,21 +3037,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Pin Headers")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "6049a66e-5c5d-463c-aa77-5ad5f6c23851")
+			(tstamps "b682dcf2-57b5-4113-9b2f-8cafcd6ffee7")
 			(units
 				(unit
 					(name "A")
@@ -2873,258 +3064,6 @@
 						)
 						(pin
 							(num "3")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "USB0")
-			(value "UB1112C")
-			(footprint "openrb:USB-A-TH_UB1112C-8FDE-4F")
-			(fields
-				(field
-					(name "Footprint") "openrb:USB-A-TH_UB1112C-8FDE-4F")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "UB1112C-8FDE-4F")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "USB Connectors")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "111a67ba-0a16-41ff-a8af-0e90e8ecd5db")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "5")
-						)
-						(pin
-							(num "6")
-						)
-						(pin
-							(num "7")
-						)
-						(pin
-							(num "8")
-						)
-						(pin
-							(num "12")
-						)
-						(pin
-							(num "11")
-						)
-						(pin
-							(num "10")
-						)
-						(pin
-							(num "9")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "USB1")
-			(value "UB1112C")
-			(footprint "openrb:USB-A-TH_UB1112C-8FDE-4F")
-			(fields
-				(field
-					(name "Footprint") "openrb:USB-A-TH_UB1112C-8FDE-4F")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "UB1112C-8FDE-4F")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "USB Connectors")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "0b01fd92-c0a2-48af-8901-01344fc9fdb7")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "5")
-						)
-						(pin
-							(num "6")
-						)
-						(pin
-							(num "7")
-						)
-						(pin
-							(num "8")
-						)
-						(pin
-							(num "12")
-						)
-						(pin
-							(num "11")
-						)
-						(pin
-							(num "10")
-						)
-						(pin
-							(num "9")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "USBC1")
-			(value "USB-C")
-			(footprint "openrb:USB-C_SMD-TYPE-C-31-M-12_1")
-			(fields
-				(field
-					(name "Footprint") "openrb:USB-C_SMD-TYPE-C-31-M-12_1")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "openrb")
-				(part "TYPE-C-31-M-12")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "openrb.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "USB Connectors")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "f608fe12-6728-4300-9e35-db0988d80524")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "A1B12")
-						)
-						(pin
-							(num "A4B9")
-						)
-						(pin
-							(num "B8")
-						)
-						(pin
-							(num "A5")
-						)
-						(pin
-							(num "B7")
-						)
-						(pin
-							(num "A6")
-						)
-						(pin
-							(num "A7")
-						)
-						(pin
-							(num "B6")
-						)
-						(pin
-							(num "A8")
-						)
-						(pin
-							(num "B5")
-						)
-						(pin
-							(num "B4A9")
-						)
-						(pin
-							(num "B1A12")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
 						)
 					)
 				)
@@ -3151,21 +3090,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "mcu.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "Crystals")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MCU/")
+				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
 			)
-			(tstamps "ff393a3a-d0ad-4449-9d79-cd92e75d3656")
+			(tstamps "87d1b576-2c38-4c02-ac37-bacb24634e22")
 			(units
 				(unit
 					(name "A")
@@ -3187,12 +3126,12 @@
 			)
 		)
 		(comp
-			(ref "X2")
-			(value "12MHz")
-			(footprint "openrb:CRYSTAL-SMD_4P-L3.2-W2.5-BL")
+			(ref "D1")
+			(value "1N4148WS")
+			(footprint "openrb:SOD-323_L1.8-W1.3-LS2.5-RD")
 			(fields
 				(field
-					(name "Footprint") "openrb:CRYSTAL-SMD_4P-L3.2-W2.5-BL")
+					(name "Footprint") "openrb:SOD-323_L1.8-W1.3-LS2.5-RD")
 				(field
 					(name "Datasheet")
 				)
@@ -3202,41 +3141,246 @@
 			)
 			(libsource
 				(lib "openrb")
-				(part "X322512MSB4SI")
-				(description "YSX321SL 12MHZ 20PF 10PPM -40~+85℃")
+				(part "1N4148WS_C402214")
+				(description "")
 			)
 			(property
 				(name "Sheetname")
-				(value "")
+				(value "MIDI")
 			)
 			(property
 				(name "Sheetfile")
-				(value "openrb.kicad_sch")
+				(value "midi.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
-				(value "Crystals")
+				(value "Switching Diode")
 			)
 			(sheetpath
-				(names "/")
-				(tstamps "/")
+				(names "/MIDI/")
+				(tstamps "/39f28e55-6307-4647-96e2-553b9090d6b4/")
 			)
-			(tstamps "215c7bac-a1c0-4621-aacb-5b621d2a991e")
+			(tstamps "42e91e64-f65e-424e-8090-e630c9e2235c")
 			(units
 				(unit
 					(name "A")
 					(pins
 						(pin
-							(num "4")
+							(num "1")
 						)
 						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "MIDI")
+			(value "CP-2350")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "MIDI_TRS")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "MIDI")
+			)
+			(property
+				(name "Sheetfile")
+				(value "midi.kicad_sch")
+			)
+			(sheetpath
+				(names "/MIDI/")
+				(tstamps "/39f28e55-6307-4647-96e2-553b9090d6b4/")
+			)
+			(tstamps "e22b5f1b-b60c-4084-8591-cdeac133c68f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
 							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "220")
+			(footprint "openrb:R0402")
+			(fields
+				(field
+					(name "Footprint") "openrb:R0402")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "0402WGF2200TCE")
+				(description "220Ω (2200) ±1%")
+			)
+			(property
+				(name "Sheetname")
+				(value "MIDI")
+			)
+			(property
+				(name "Sheetfile")
+				(value "midi.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Resistors")
+			)
+			(sheetpath
+				(names "/MIDI/")
+				(tstamps "/39f28e55-6307-4647-96e2-553b9090d6b4/")
+			)
+			(tstamps "ca4b7efb-103b-4c15-8d13-127e9c763c3e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "470")
+			(footprint "openrb:R0402")
+			(fields
+				(field
+					(name "Footprint") "openrb:R0402")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "0402WGF2200TCE")
+				(description "220Ω (2200) ±1%")
+			)
+			(property
+				(name "Sheetname")
+				(value "MIDI")
+			)
+			(property
+				(name "Sheetfile")
+				(value "midi.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Resistors")
+			)
+			(sheetpath
+				(names "/MIDI/")
+				(tstamps "/39f28e55-6307-4647-96e2-553b9090d6b4/")
+			)
+			(tstamps "03a271b0-a038-47c3-9478-395c54cf8e0a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U6")
+			(value "H11L1")
+			(footprint "openrb:DIP-6_L8.5-W6.4-P2.54-LS7.6-BL")
+			(fields
+				(field
+					(name "Footprint") "openrb:DIP-6_L8.5-W6.4-P2.54-LS7.6-BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "openrb")
+				(part "H11L1")
+				(description "H11L1")
+			)
+			(property
+				(name "Sheetname")
+				(value "MIDI")
+			)
+			(property
+				(name "Sheetfile")
+				(value "midi.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Optocouplers - Phototransistor Output")
+			)
+			(sheetpath
+				(names "/MIDI/")
+				(tstamps "/39f28e55-6307-4647-96e2-553b9090d6b4/")
+			)
+			(tstamps "8e9abd65-b4b7-474e-b7c2-935c53393150")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
 						)
 						(pin
 							(num "3")
 						)
 						(pin
-							(num "2")
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
 						)
 					)
 				)
@@ -4628,7 +4772,7 @@
 	(nets
 		(net
 			(code "1")
-			(name "/+1V1")
+			(name "+1V1")
 			(class "Default")
 			(node
 				(ref "C10")
@@ -4669,7 +4813,7 @@
 		)
 		(net
 			(code "2")
-			(name "/+3V3")
+			(name "+3V3")
 			(class "Default")
 			(node
 				(ref "C1")
@@ -4830,7 +4974,7 @@
 		)
 		(net
 			(code "3")
-			(name "/+5V")
+			(name "+5V")
 			(class "Default")
 			(node
 				(ref "C12")
@@ -4919,7 +5063,7 @@
 		)
 		(net
 			(code "4")
-			(name "/BOOT_BTN")
+			(name "BOOT_BTN")
 			(class "Default")
 			(node
 				(ref "BOOT")
@@ -4942,7 +5086,7 @@
 		)
 		(net
 			(code "5")
-			(name "/CC1")
+			(name "CC1")
 			(class "Default")
 			(node
 				(ref "R1")
@@ -4959,7 +5103,7 @@
 		)
 		(net
 			(code "6")
-			(name "/CC2")
+			(name "CC2")
 			(class "Default")
 			(node
 				(ref "R3")
@@ -4976,7 +5120,7 @@
 		)
 		(net
 			(code "7")
-			(name "/DEBUG_RX")
+			(name "DEBUG_RX")
 			(class "Default")
 			(node
 				(ref "U1")
@@ -4993,7 +5137,7 @@
 		)
 		(net
 			(code "8")
-			(name "/DEBUG_TX")
+			(name "DEBUG_TX")
 			(class "Default")
 			(node
 				(ref "U1")
@@ -5010,7 +5154,7 @@
 		)
 		(net
 			(code "9")
-			(name "/D_USB_N")
+			(name "D_USB_N")
 			(class "Default")
 			(node
 				(ref "D2")
@@ -5033,7 +5177,7 @@
 		)
 		(net
 			(code "10")
-			(name "/D_USB_P")
+			(name "D_USB_P")
 			(class "Default")
 			(node
 				(ref "D2")
@@ -5056,7 +5200,7 @@
 		)
 		(net
 			(code "11")
-			(name "/EN_LDO")
+			(name "EN_LDO")
 			(class "Default")
 			(node
 				(ref "R9")
@@ -5073,7 +5217,7 @@
 		)
 		(net
 			(code "12")
-			(name "/GND")
+			(name "GND")
 			(class "Default")
 			(node
 				(ref "BOOT")
@@ -5456,7 +5600,7 @@
 		)
 		(net
 			(code "13")
-			(name "/HUB_DM1")
+			(name "HUB_DM1")
 			(class "Default")
 			(node
 				(ref "U2")
@@ -5473,7 +5617,7 @@
 		)
 		(net
 			(code "14")
-			(name "/HUB_DM2")
+			(name "HUB_DM2")
 			(class "Default")
 			(node
 				(ref "U2")
@@ -5490,7 +5634,7 @@
 		)
 		(net
 			(code "15")
-			(name "/HUB_DM3")
+			(name "HUB_DM3")
 			(class "Default")
 			(node
 				(ref "U2")
@@ -5507,7 +5651,7 @@
 		)
 		(net
 			(code "16")
-			(name "/HUB_DM4")
+			(name "HUB_DM4")
 			(class "Default")
 			(node
 				(ref "U2")
@@ -5524,7 +5668,7 @@
 		)
 		(net
 			(code "17")
-			(name "/HUB_DP1")
+			(name "HUB_DP1")
 			(class "Default")
 			(node
 				(ref "U2")
@@ -5541,7 +5685,7 @@
 		)
 		(net
 			(code "18")
-			(name "/HUB_DP2")
+			(name "HUB_DP2")
 			(class "Default")
 			(node
 				(ref "U2")
@@ -5558,7 +5702,7 @@
 		)
 		(net
 			(code "19")
-			(name "/HUB_DP3")
+			(name "HUB_DP3")
 			(class "Default")
 			(node
 				(ref "U2")
@@ -5575,7 +5719,7 @@
 		)
 		(net
 			(code "20")
-			(name "/HUB_DP4")
+			(name "HUB_DP4")
 			(class "Default")
 			(node
 				(ref "U2")
@@ -5592,7 +5736,7 @@
 		)
 		(net
 			(code "21")
-			(name "/LED1")
+			(name "LED1")
 			(class "Default")
 			(node
 				(ref "R6")
@@ -5609,7 +5753,7 @@
 		)
 		(net
 			(code "22")
-			(name "/MCU_USBD_DM")
+			(name "MCU_USBD_DM")
 			(class "Default")
 			(node
 				(ref "R14")
@@ -5626,7 +5770,7 @@
 		)
 		(net
 			(code "23")
-			(name "/MCU_USBD_DP")
+			(name "MCU_USBD_DP")
 			(class "Default")
 			(node
 				(ref "R15")
@@ -5643,7 +5787,7 @@
 		)
 		(net
 			(code "24")
-			(name "/MCU_USBH_DM")
+			(name "MCU_USBH_DM")
 			(class "Default")
 			(node
 				(ref "U1")
@@ -5660,7 +5804,7 @@
 		)
 		(net
 			(code "25")
-			(name "/MCU_USBH_DP")
+			(name "MCU_USBH_DP")
 			(class "Default")
 			(node
 				(ref "U1")
@@ -5677,7 +5821,7 @@
 		)
 		(net
 			(code "26")
-			(name "/MIDI_A")
+			(name "MIDI_A")
 			(class "Default")
 			(node
 				(ref "D1")
@@ -5700,7 +5844,7 @@
 		)
 		(net
 			(code "27")
-			(name "/MIDI_IN")
+			(name "MIDI_IN")
 			(class "Default")
 			(node
 				(ref "MIDI")
@@ -5717,7 +5861,7 @@
 		)
 		(net
 			(code "28")
-			(name "/MIDI_K")
+			(name "MIDI_K")
 			(class "Default")
 			(node
 				(ref "D1")
@@ -5740,7 +5884,7 @@
 		)
 		(net
 			(code "29")
-			(name "/MIDI_RX")
+			(name "MIDI_RX")
 			(class "Default")
 			(node
 				(ref "R4")
@@ -5763,7 +5907,7 @@
 		)
 		(net
 			(code "30")
-			(name "/N_3V3LED")
+			(name "N_3V3LED")
 			(class "Default")
 			(node
 				(ref "LED_3V3")
@@ -5780,7 +5924,7 @@
 		)
 		(net
 			(code "31")
-			(name "/N_5VLED")
+			(name "N_5VLED")
 			(class "Default")
 			(node
 				(ref "LED_5V")
@@ -5797,7 +5941,7 @@
 		)
 		(net
 			(code "32")
-			(name "/N_AUTH")
+			(name "N_AUTH")
 			(class "Default")
 			(node
 				(ref "LED_AUTH")
@@ -5814,7 +5958,7 @@
 		)
 		(net
 			(code "33")
-			(name "/QSPI_SCLK")
+			(name "QSPI_SCLK")
 			(class "Default")
 			(node
 				(ref "U1")
@@ -5831,7 +5975,7 @@
 		)
 		(net
 			(code "34")
-			(name "/QSPI_SD0")
+			(name "QSPI_SD0")
 			(class "Default")
 			(node
 				(ref "U1")
@@ -5848,7 +5992,7 @@
 		)
 		(net
 			(code "35")
-			(name "/QSPI_SD1")
+			(name "QSPI_SD1")
 			(class "Default")
 			(node
 				(ref "U1")
@@ -5865,7 +6009,7 @@
 		)
 		(net
 			(code "36")
-			(name "/QSPI_SD2")
+			(name "QSPI_SD2")
 			(class "Default")
 			(node
 				(ref "U1")
@@ -5882,7 +6026,7 @@
 		)
 		(net
 			(code "37")
-			(name "/QSPI_SD3")
+			(name "QSPI_SD3")
 			(class "Default")
 			(node
 				(ref "U1")
@@ -5899,7 +6043,7 @@
 		)
 		(net
 			(code "38")
-			(name "/QSPI_SS")
+			(name "QSPI_SS")
 			(class "Default")
 			(node
 				(ref "R10")
@@ -5922,7 +6066,7 @@
 		)
 		(net
 			(code "39")
-			(name "/RST_BTN")
+			(name "RST_BTN")
 			(class "Default")
 			(node
 				(ref "R11")
@@ -5945,7 +6089,7 @@
 		)
 		(net
 			(code "40")
-			(name "/RUN")
+			(name "RUN")
 			(class "Default")
 			(node
 				(ref "R11")
@@ -5968,7 +6112,7 @@
 		)
 		(net
 			(code "41")
-			(name "/SWCLK")
+			(name "SWCLK")
 			(class "Default")
 			(node
 				(ref "SWD1")
@@ -5985,7 +6129,7 @@
 		)
 		(net
 			(code "42")
-			(name "/SWDIO")
+			(name "SWDIO")
 			(class "Default")
 			(node
 				(ref "SWD1")
@@ -6002,7 +6146,7 @@
 		)
 		(net
 			(code "43")
-			(name "/USBD_DM_R")
+			(name "USBD_DM_R")
 			(class "Default")
 			(node
 				(ref "D2")
@@ -6019,7 +6163,7 @@
 		)
 		(net
 			(code "44")
-			(name "/USBD_DP_R")
+			(name "USBD_DP_R")
 			(class "Default")
 			(node
 				(ref "D2")
@@ -6036,7 +6180,7 @@
 		)
 		(net
 			(code "45")
-			(name "/USB_HUB_RST")
+			(name "USB_HUB_RST")
 			(class "Default")
 			(node
 				(ref "U1")
@@ -6053,7 +6197,7 @@
 		)
 		(net
 			(code "46")
-			(name "/VBUS")
+			(name "VBUS")
 			(class "Default")
 			(node
 				(ref "D2")
@@ -6088,7 +6232,7 @@
 		)
 		(net
 			(code "47")
-			(name "/X2_XI")
+			(name "X2_XI")
 			(class "Default")
 			(node
 				(ref "U2")
@@ -6105,7 +6249,7 @@
 		)
 		(net
 			(code "48")
-			(name "/X2_XO")
+			(name "X2_XO")
 			(class "Default")
 			(node
 				(ref "U2")
@@ -6122,7 +6266,7 @@
 		)
 		(net
 			(code "49")
-			(name "/XIN")
+			(name "XIN")
 			(class "Default")
 			(node
 				(ref "C16")
@@ -6145,7 +6289,7 @@
 		)
 		(net
 			(code "50")
-			(name "/XOUT")
+			(name "XOUT")
 			(class "Default")
 			(node
 				(ref "R12")
@@ -6162,7 +6306,7 @@
 		)
 		(net
 			(code "51")
-			(name "/XOUT_R")
+			(name "XOUT_R")
 			(class "Default")
 			(node
 				(ref "C15")

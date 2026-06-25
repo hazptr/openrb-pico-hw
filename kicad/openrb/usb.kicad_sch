@@ -1,0 +1,1283 @@
+(kicad_sch
+	(version 20250114)
+	(generator "openrb_gen")(generator_version "10.0")
+	(uuid "9aa6f5c0-bb71-4567-a9a9-cc7f7fe2d755")
+	(paper "A1")
+	(lib_symbols
+(symbol "openrb:0402WGF2200TCE"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "0402WGF2200TCE"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "openrb:R0402"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C25091.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "UNI-ROYAL(厚声)"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "0402WGF2200TCE"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C25091"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "Resistors"
+      (id 8)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_description"
+      "220Ω (2200) ±1%"
+      (id 9)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "0402WGF2200TCE_0_1"
+      (rectangle
+        (start -2.54 1.02)
+        (end 2.54 -1.02)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (pin input line
+        (at 5.08 -0.00 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -5.08 -0.00 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+(symbol "openrb:CH334R"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 13.97 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "CH334R"
+      (id 1)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "openrb:QSOP-16_L4.9-W3.9-P0.64-LS6.0-BL"
+      (id 2)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/C4154405.pdf"
+      (id 3)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "WCH(南京沁恒)"
+      (id 4)
+      (at 0 -21.59 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "CH334R"
+      (id 5)
+      (at 0 -24.13 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C4154405"
+      (id 6)
+      (at 0 -26.67 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "CH334R_0_1"
+      (rectangle
+        (start -12.70 11.43)
+        (end 12.70 -11.43)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (circle
+        (center -11.43 10.16)
+        (radius 0.38)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -15.24 8.89 0)
+        (length 2.54)
+        (name "DM4" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -15.24 6.35 0)
+        (length 2.54)
+        (name "DP4" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -15.24 3.81 0)
+        (length 2.54)
+        (name "DM3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -15.24 1.27 0)
+        (length 2.54)
+        (name "DP3" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -15.24 -1.27 0)
+        (length 2.54)
+        (name "DM2" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -15.24 -3.81 0)
+        (length 2.54)
+        (name "DP2" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -15.24 -6.35 0)
+        (length 2.54)
+        (name "DM1" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -15.24 -8.89 0)
+        (length 2.54)
+        (name "DP1" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 15.24 -8.89 180)
+        (length 2.54)
+        (name "~{RESET}/CDP" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 15.24 -6.35 180)
+        (length 2.54)
+        (name "DMU" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 15.24 -3.81 180)
+        (length 2.54)
+        (name "DPU" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 15.24 -1.27 180)
+        (length 2.54)
+        (name "V5" (effects (font (size 1.27 1.27))))
+        (number "12" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 15.24 1.27 180)
+        (length 2.54)
+        (name "VDD33" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 15.24 3.81 180)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "14" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 15.24 6.35 180)
+        (length 2.54)
+        (name "XO" (effects (font (size 1.27 1.27))))
+        (number "15" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 15.24 8.89 180)
+        (length 2.54)
+        (name "XI" (effects (font (size 1.27 1.27))))
+        (number "16" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+(symbol "openrb:CL05A105KQ5NNNC"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "CL05A105KQ5NNNC"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "openrb:C0402"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A105KQ5NNNC_1uF-105-10-6-3V_C107372.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "SAMSUNG(三星)"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "CL05A105KQ5NNNC"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C107372"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+      (id 8)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "CL05A105KQ5NNNC_0_1"
+      (polyline
+        (pts
+          (xy -0.51 2.03) (xy -0.51 -2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.51 2.03) (xy 0.51 -2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -0.00) (xy -0.51 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.51 -0.00) (xy 1.27 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin input line
+        (at -3.81 -0.00 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 3.81 -0.00 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+(symbol "openrb:TAJB107K006RNJ"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "TAJB107K006RNJ"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "openrb:CASE-B_3528"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Tantalum-Capacitors_AVX_TAJB107K006RNJ_100uF-107-10-6-3V_C16133.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "Kyocera AVX"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "TAJB107K006RNJ"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C16133"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "Tantalum Capacitors"
+      (id 8)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_description"
+      "100uF (107) ±10% 6.3V"
+      (id 9)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "TAJB107K006RNJ_0_1"
+      (polyline
+        (pts
+          (xy 0.51 2.03) (xy 0.51 -2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.51 2.03) (xy -0.51 -2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 -0.00) (xy 0.51 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.51 -0.00) (xy -1.27 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 1.02) (xy 1.52 1.02)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.03 1.52) (xy 2.03 0.51)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin input line
+        (at 3.81 -0.00 180)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -3.81 -0.00 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+(symbol "openrb:TYPE-C-31-M-12"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "USBC"
+      (id 0)
+      (at 0 19.05 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "TYPE-C-31-M-12"
+      (id 1)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "openrb:USB-C_SMD-TYPE-C-31-M-12_1"
+      (id 2)
+      (at 0 -21.59 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/USB-Type-C_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html"
+      (id 3)
+      (at 0 -24.13 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "韩国韩荣"
+      (id 4)
+      (at 0 -26.67 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "TYPE-C-31-M-12"
+      (id 5)
+      (at 0 -29.21 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C165948"
+      (id 6)
+      (at 0 -31.75 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "USB Connectors"
+      (id 8)
+      (at 0 -34.29 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "TYPE-C-31-M-12_0_1"
+      (rectangle
+        (start -3.81 16.51)
+        (end 8.89 -16.51)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at -6.35 13.97 0)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "A1B12" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -6.35 11.43 0)
+        (length 2.54)
+        (name "VBUS" (effects (font (size 1.27 1.27))))
+        (number "A4B9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -6.35 8.89 0)
+        (length 2.54)
+        (name "SBU2" (effects (font (size 1.27 1.27))))
+        (number "B8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -6.35 6.35 0)
+        (length 2.54)
+        (name "CC1" (effects (font (size 1.27 1.27))))
+        (number "A5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -6.35 3.81 0)
+        (length 2.54)
+        (name "DN2" (effects (font (size 1.27 1.27))))
+        (number "B7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -6.35 1.27 0)
+        (length 2.54)
+        (name "DP1" (effects (font (size 1.27 1.27))))
+        (number "A6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -6.35 -1.27 0)
+        (length 2.54)
+        (name "DN1" (effects (font (size 1.27 1.27))))
+        (number "A7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -6.35 -3.81 0)
+        (length 2.54)
+        (name "DP2" (effects (font (size 1.27 1.27))))
+        (number "B6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -6.35 -6.35 0)
+        (length 2.54)
+        (name "SBU1" (effects (font (size 1.27 1.27))))
+        (number "A8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -6.35 -8.89 0)
+        (length 2.54)
+        (name "CC2" (effects (font (size 1.27 1.27))))
+        (number "B5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -6.35 -11.43 0)
+        (length 2.54)
+        (name "VBUS" (effects (font (size 1.27 1.27))))
+        (number "B4A9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -6.35 -13.97 0)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "B1A12" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 -6.35 180)
+        (length 2.54)
+        (name "EH" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 -8.89 180)
+        (length 2.54)
+        (name "EH" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 -11.43 180)
+        (length 2.54)
+        (name "EH" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 -13.97 180)
+        (length 2.54)
+        (name "EH" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+(symbol "openrb:UB1112C-8FDE-4F"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "USB"
+      (id 0)
+      (at 0 13.97 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "UB1112C-8FDE-4F"
+      (id 1)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "openrb:USB-A-TH_UB1112C-8FDE-4F"
+      (id 2)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/C2761534.pdf"
+      (id 3)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "FOXCONN(富士康)"
+      (id 4)
+      (at 0 -21.59 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "UB1112C-8FDE-4F"
+      (id 5)
+      (at 0 -24.13 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2761534"
+      (id 6)
+      (at 0 -26.67 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "USB Connectors"
+      (id 8)
+      (at 0 -29.21 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "UB1112C-8FDE-4F_0_1"
+      (rectangle
+        (start -10.16 11.43)
+        (end 8.89 -11.43)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (circle
+        (center -8.89 10.16)
+        (radius 0.38)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -12.70 8.89 0)
+        (length 2.54)
+        (name "U-VCC" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -12.70 6.35 0)
+        (length 2.54)
+        (name "U-D-" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -12.70 3.81 0)
+        (length 2.54)
+        (name "U-D+" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -12.70 1.27 0)
+        (length 2.54)
+        (name "U-GND" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -12.70 -1.27 0)
+        (length 2.54)
+        (name "D-VCC" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -12.70 -3.81 0)
+        (length 2.54)
+        (name "D-D-" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -12.70 -6.35 0)
+        (length 2.54)
+        (name "D-D+" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -12.70 -8.89 0)
+        (length 2.54)
+        (name "D-GND" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 -3.81 180)
+        (length 2.54)
+        (name "SHELL" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 -1.27 180)
+        (length 2.54)
+        (name "SHELL" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 1.27 180)
+        (length 2.54)
+        (name "SHELL" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 3.81 180)
+        (length 2.54)
+        (name "SHELL" (effects (font (size 1.27 1.27))))
+        (number "12" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+(symbol "openrb:USBLC6-2SC6_C2827654"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "D"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "USBLC6-2SC6_C2827654"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "openrb:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/C2827654.pdf"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "TECH PUBLIC(台舟)"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "USBLC6-2SC6"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2827654"
+      (id 6)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "ESD Protection Devices"
+      (id 8)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "USBLC6-2SC6_C2827654_0_1"
+      (rectangle
+        (start -7.62 5.08)
+        (end 7.62 -5.08)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (circle
+        (center -6.35 3.81)
+        (radius 0.38)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -10.16 2.54 0)
+        (length 2.54)
+        (name "IO1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -10.16 -0.00 0)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -10.16 -2.54 0)
+        (length 2.54)
+        (name "IO2" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 10.16 -2.54 180)
+        (length 2.54)
+        (name "IO2" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 10.16 -0.00 180)
+        (length 2.54)
+        (name "VBUS" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 10.16 2.54 180)
+        (length 2.54)
+        (name "IO1" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+(symbol "openrb:X322512MSB4SI"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "X"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "X322512MSB4SI"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "openrb:CRYSTAL-SMD_4P-L3.2-W2.5-BL"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/SMD-Crystals_YSX321SL-12MHZ-20PF-10PPM-40-85_C9002.html"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "YXC(扬兴晶振)"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "X322512MSB4SI"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C9002"
+      (id 6)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "Crystals"
+      (id 8)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_description"
+      "YSX321SL 12MHZ 20PF 10PPM -40~+85℃"
+      (id 9)
+      (at 0 -25.40 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "X322512MSB4SI_0_1"
+      (rectangle
+        (start -5.08 5.08)
+        (end 5.08 -5.08)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy 0.76 1.78) (xy 0.76 -1.78) (xy -0.76 -1.78) (xy -0.76 1.78) (xy 0.76 1.78)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -1.78) (xy -1.27 1.78)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 -1.78) (xy 1.27 1.78)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 -2.54) (xy -2.54 -2.54) (xy -2.54 -0.00) (xy -1.52 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 2.54) (xy 2.54 2.54) (xy 2.54 -0.00) (xy 1.52 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.76 -1.78) (xy -0.76 1.78) (xy 0.76 1.78) (xy 0.76 -1.78)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 -1.02) (xy 1.27 1.02)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.76 -1.78) (xy -0.76 -1.78)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -1.02) (xy -1.27 1.02)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at 7.62 2.54 180)
+        (length 2.54)
+        (name "OSC2" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -2.54 0)
+        (length 2.54)
+        (name "OSC1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 -2.54 180)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 2.54 0)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+	)
+	(text "USB-C INPUT / ESD" (at 30.00 30.00 0)(effects (font (size 2.0 2.0)(bold yes))(justify left))(uuid "3af90ded-6346-4e48-873a-c5e1a478d0fb"))
+	(text "USB 2.0 HUB (CH334R)" (at 30.00 115.94 0)(effects (font (size 2.0 2.0)(bold yes))(justify left))(uuid "cf6c3bb2-f9b5-4e36-911a-3366a3a216fe"))
+	(text "USB-A HOST PORTS" (at 30.00 191.72 0)(effects (font (size 2.0 2.0)(bold yes))(justify left))(uuid "c9824e00-10a4-4b01-883f-de1a7edb4bf6"))
+	(text "+5V BULK" (at 30.00 267.50 0)(effects (font (size 2.0 2.0)(bold yes))(justify left))(uuid "23ca9640-0e9f-4896-bb21-0ef939b5912d"))
+	(symbol (lib_id "openrb:TYPE-C-31-M-12") (at 62.35 67.97 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "f303fb6c-8ebf-45f9-9e02-3ec855a97912")
+		(property "Reference" "USBC1" (at 62.35 65.43 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "USB-C" (at 62.35 70.51 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:USB-C_SMD-TYPE-C-31-M-12_1" (at 62.35 67.97 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/f00d8e8a-4467-4500-b883-82b38ef84e95" (reference "USBC1")(unit 1))))
+	)
+	(symbol (lib_id "openrb:USBLC6-2SC6_C2827654") (at 149.94 56.54 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "d9d781cb-6ca4-4583-9d40-36bfa666cccd")
+		(property "Reference" "D2" (at 149.94 54.00 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "USBLC6-2SC6" (at 149.94 59.08 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL" (at 149.94 56.54 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/f00d8e8a-4467-4500-b883-82b38ef84e95" (reference "D2")(unit 1))))
+	)
+	(symbol (lib_id "openrb:0402WGF2200TCE") (at 231.18 54.00 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "10f476bd-871b-4b64-bddd-de8d81a0c139")
+		(property "Reference" "R15" (at 231.18 51.46 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "22" (at 231.18 56.54 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:R0402" (at 231.18 54.00 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/f00d8e8a-4467-4500-b883-82b38ef84e95" (reference "R15")(unit 1))))
+	)
+	(symbol (lib_id "openrb:0402WGF2200TCE") (at 307.34 54.00 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "92b419bb-026f-4a3f-9dbf-904c32a9faef")
+		(property "Reference" "R14" (at 307.34 51.46 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "22" (at 307.34 56.54 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:R0402" (at 307.34 54.00 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/f00d8e8a-4467-4500-b883-82b38ef84e95" (reference "R14")(unit 1))))
+	)
+	(symbol (lib_id "openrb:0402WGF2200TCE") (at 383.50 54.00 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "9810c141-01eb-425e-82eb-fa4b2ac44b5e")
+		(property "Reference" "R1" (at 383.50 51.46 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "5.1k" (at 383.50 56.54 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:R0402" (at 383.50 54.00 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/f00d8e8a-4467-4500-b883-82b38ef84e95" (reference "R1")(unit 1))))
+	)
+	(symbol (lib_id "openrb:0402WGF2200TCE") (at 459.66 54.00 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "362103e1-efa9-4b50-ac18-029667772a54")
+		(property "Reference" "R3" (at 459.66 51.46 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "5.1k" (at 459.66 56.54 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:R0402" (at 459.66 54.00 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/f00d8e8a-4467-4500-b883-82b38ef84e95" (reference "R3")(unit 1))))
+	)
+	(symbol (lib_id "openrb:CH334R") (at 71.24 148.83 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "e4e8b2a1-c6c7-4432-b360-a3bd4b28894b")
+		(property "Reference" "U2" (at 71.24 146.29 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "CH334R" (at 71.24 151.37 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:QSOP-16_L4.9-W3.9-P0.64-LS6.0-BL" (at 71.24 148.83 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/f00d8e8a-4467-4500-b883-82b38ef84e95" (reference "U2")(unit 1))))
+	)
+	(symbol (lib_id "openrb:X322512MSB4SI") (at 160.10 142.48 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "19ee7a72-661b-4380-a91c-fbe9abae3f91")
+		(property "Reference" "X2" (at 160.10 139.94 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "12MHz" (at 160.10 145.02 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:CRYSTAL-SMD_4P-L3.2-W2.5-BL" (at 160.10 142.48 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/f00d8e8a-4467-4500-b883-82b38ef84e95" (reference "X2")(unit 1))))
+	)
+	(symbol (lib_id "openrb:CL05A105KQ5NNNC") (at 237.53 139.94 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "2a3caa57-a248-4eaa-a777-898eccd19314")
+		(property "Reference" "C19" (at 237.53 137.40 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "1uF" (at 237.53 142.48 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:C0402" (at 237.53 139.94 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/f00d8e8a-4467-4500-b883-82b38ef84e95" (reference "C19")(unit 1))))
+	)
+	(symbol (lib_id "openrb:CL05A105KQ5NNNC") (at 311.15 139.94 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "f938cb4f-69fd-4ddd-bcb5-f363c1a87e12")
+		(property "Reference" "C20" (at 311.15 137.40 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "1uF" (at 311.15 142.48 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:C0402" (at 311.15 139.94 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/f00d8e8a-4467-4500-b883-82b38ef84e95" (reference "C20")(unit 1))))
+	)
+	(symbol (lib_id "openrb:UB1112C-8FDE-4F") (at 68.70 224.61 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "44f4c996-0224-4051-90be-47185e963e60")
+		(property "Reference" "USB0" (at 68.70 222.07 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "UB1112C" (at 68.70 227.15 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:USB-A-TH_UB1112C-8FDE-4F" (at 68.70 224.61 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/f00d8e8a-4467-4500-b883-82b38ef84e95" (reference "USB0")(unit 1))))
+	)
+	(symbol (lib_id "openrb:UB1112C-8FDE-4F") (at 158.83 224.61 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "c2c6f087-869e-4d35-ad2c-d3cc7673083b")
+		(property "Reference" "USB1" (at 158.83 222.07 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "UB1112C" (at 158.83 227.15 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:USB-A-TH_UB1112C-8FDE-4F" (at 158.83 224.61 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/f00d8e8a-4467-4500-b883-82b38ef84e95" (reference "USB1")(unit 1))))
+	)
+	(symbol (lib_id "openrb:TAJB107K006RNJ") (at 59.81 291.50 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "2f3d5ab7-fa3d-4eae-a760-74e775cf3285")
+		(property "Reference" "C12" (at 59.81 288.96 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "100uF" (at 59.81 294.04 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:CASE-B_3528" (at 59.81 291.50 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/f00d8e8a-4467-4500-b883-82b38ef84e95" (reference "C12")(unit 1))))
+	)
+	(symbol (lib_id "openrb:TAJB107K006RNJ") (at 133.43 291.50 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "2c22adb4-3e2c-488e-afb5-15d88283748b")
+		(property "Reference" "C13" (at 133.43 288.96 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "100uF" (at 133.43 294.04 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:CASE-B_3528" (at 133.43 291.50 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/f00d8e8a-4467-4500-b883-82b38ef84e95" (reference "C13")(unit 1))))
+	)
+	(symbol (lib_id "openrb:TAJB107K006RNJ") (at 207.05 291.50 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "24dbe116-0a21-49a4-bb71-cbdde3037733")
+		(property "Reference" "C14" (at 207.05 288.96 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "100uF" (at 207.05 294.04 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:CASE-B_3528" (at 207.05 291.50 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/f00d8e8a-4467-4500-b883-82b38ef84e95" (reference "C14")(unit 1))))
+	)
+	(symbol (lib_id "openrb:TAJB107K006RNJ") (at 280.67 291.50 0) (unit 1)
+		(exclude_from_sim no)(in_bom yes)(on_board yes)(dnp no)
+		(uuid "43c62960-756b-4388-80ea-21aaab66300a")
+		(property "Reference" "C17" (at 280.67 288.96 0)(effects (font (size 1.27 1.27))))
+		(property "Value" "100uF" (at 280.67 294.04 0)(effects (font (size 1.27 1.27))))
+		(property "Footprint" "openrb:CASE-B_3528" (at 280.67 291.50 0)(effects (font (size 1.27 1.27))(hide yes)))
+		(instances (project "openrb" (path "/251ff2b1-d9d1-4bc6-8381-ccd7188d1519/f00d8e8a-4467-4500-b883-82b38ef84e95" (reference "C17")(unit 1))))
+	)
+	(global_label "GND" (shape passive) (at 56.00 54.00 180)(effects (font (size 1.27 1.27))(justify right))(uuid "f580bfd1-1c98-4448-902d-be6cdc5e4e59"))
+	(global_label "VBUS" (shape passive) (at 56.00 56.54 180)(effects (font (size 1.27 1.27))(justify right))(uuid "bb45d52a-17ba-456b-8db4-1ae46b075b23"))
+	(global_label "CC1" (shape passive) (at 56.00 61.62 180)(effects (font (size 1.27 1.27))(justify right))(uuid "4eda6e65-7b29-4fc1-9453-2b5359c4aae7"))
+	(global_label "D_USB_N" (shape passive) (at 56.00 64.16 180)(effects (font (size 1.27 1.27))(justify right))(uuid "e52b5124-3e93-465f-82c9-dd5a91878717"))
+	(global_label "D_USB_P" (shape passive) (at 56.00 66.70 180)(effects (font (size 1.27 1.27))(justify right))(uuid "6d1f702a-cb8e-40f0-86e2-0e82700be0ca"))
+	(global_label "D_USB_N" (shape passive) (at 56.00 69.24 180)(effects (font (size 1.27 1.27))(justify right))(uuid "21e314c5-65f1-44a0-8818-bc8f370bbad4"))
+	(global_label "D_USB_P" (shape passive) (at 56.00 71.78 180)(effects (font (size 1.27 1.27))(justify right))(uuid "e0036a3b-3dc7-427e-96c7-7d07e6c650a1"))
+	(global_label "CC2" (shape passive) (at 56.00 76.86 180)(effects (font (size 1.27 1.27))(justify right))(uuid "83fe91a5-af38-4c82-9bd3-299f37a13a74"))
+	(global_label "VBUS" (shape passive) (at 56.00 79.40 180)(effects (font (size 1.27 1.27))(justify right))(uuid "4964bf8a-4919-40eb-9582-b9ef3b99a26e"))
+	(global_label "GND" (shape passive) (at 56.00 81.94 180)(effects (font (size 1.27 1.27))(justify right))(uuid "51d5c892-2d28-4de5-a52e-b29a0c82b97d"))
+	(global_label "GND" (shape passive) (at 73.78 74.32 0)(effects (font (size 1.27 1.27))(justify left))(uuid "cb9524c0-91dd-48af-9e31-c0e5d3f50932"))
+	(global_label "GND" (shape passive) (at 73.78 76.86 0)(effects (font (size 1.27 1.27))(justify left))(uuid "26f4661b-4ba5-4706-ba81-7f0c542b97a0"))
+	(global_label "GND" (shape passive) (at 73.78 79.40 0)(effects (font (size 1.27 1.27))(justify left))(uuid "d67aac9c-2fe5-409d-9ed7-ee34ecc3f577"))
+	(global_label "GND" (shape passive) (at 73.78 81.94 0)(effects (font (size 1.27 1.27))(justify left))(uuid "8308d46d-be05-4f4e-9fd0-5a340de4a2cd"))
+	(global_label "USBD_DP_R" (shape passive) (at 139.78 54.00 180)(effects (font (size 1.27 1.27))(justify right))(uuid "6009ca92-ceb2-411f-b0f7-49bd8a38e926"))
+	(global_label "GND" (shape passive) (at 139.78 56.54 180)(effects (font (size 1.27 1.27))(justify right))(uuid "46d7db35-14f3-4c1e-a961-865aac7edcef"))
+	(global_label "D_USB_N" (shape passive) (at 139.78 59.08 180)(effects (font (size 1.27 1.27))(justify right))(uuid "23904646-740f-49fa-bdb4-8971767906b5"))
+	(global_label "USBD_DM_R" (shape passive) (at 160.10 59.08 0)(effects (font (size 1.27 1.27))(justify left))(uuid "1e767d5e-1bc8-47e2-8e3f-ae926040e110"))
+	(global_label "VBUS" (shape passive) (at 160.10 56.54 0)(effects (font (size 1.27 1.27))(justify left))(uuid "dfe29256-403b-4bd6-98c6-35308446891b"))
+	(global_label "D_USB_P" (shape passive) (at 160.10 54.00 0)(effects (font (size 1.27 1.27))(justify left))(uuid "23461b57-fab2-4682-9770-ab62b6f7cce2"))
+	(global_label "USBD_DP_R" (shape passive) (at 236.26 54.00 0)(effects (font (size 1.27 1.27))(justify left))(uuid "dae2b23a-cdb1-4701-9426-7d1811650b4f"))
+	(global_label "MCU_USBD_DP" (shape passive) (at 226.10 54.00 180)(effects (font (size 1.27 1.27))(justify right))(uuid "192dad36-fa7e-4d27-8f1c-53a7cc9b1381"))
+	(global_label "USBD_DM_R" (shape passive) (at 312.42 54.00 0)(effects (font (size 1.27 1.27))(justify left))(uuid "2daee755-a72e-4259-bc64-8a55153298b7"))
+	(global_label "MCU_USBD_DM" (shape passive) (at 302.26 54.00 180)(effects (font (size 1.27 1.27))(justify right))(uuid "7aa9a524-cdb6-400f-9595-95721622b8a3"))
+	(global_label "GND" (shape passive) (at 388.58 54.00 0)(effects (font (size 1.27 1.27))(justify left))(uuid "4b985d0f-7353-460d-ad58-67232d656de2"))
+	(global_label "CC1" (shape passive) (at 378.42 54.00 180)(effects (font (size 1.27 1.27))(justify right))(uuid "31a7100d-25ea-4fa0-84cf-b89a3daedb17"))
+	(global_label "GND" (shape passive) (at 464.74 54.00 0)(effects (font (size 1.27 1.27))(justify left))(uuid "d0695431-4908-4d35-9a40-8e4b0c144d93"))
+	(global_label "CC2" (shape passive) (at 454.58 54.00 180)(effects (font (size 1.27 1.27))(justify right))(uuid "d5a4b578-dc9f-4dea-a0c3-23774fcafd31"))
+	(global_label "HUB_DM4" (shape passive) (at 56.00 139.94 180)(effects (font (size 1.27 1.27))(justify right))(uuid "8ab7647d-27f1-4462-b123-ea6f79f61d75"))
+	(global_label "HUB_DP4" (shape passive) (at 56.00 142.48 180)(effects (font (size 1.27 1.27))(justify right))(uuid "f346f7df-b8a3-4517-a5e8-6098fa86609f"))
+	(global_label "HUB_DM3" (shape passive) (at 56.00 145.02 180)(effects (font (size 1.27 1.27))(justify right))(uuid "f6c6e05d-bb11-41fe-ab79-7a6b904e7e08"))
+	(global_label "HUB_DP3" (shape passive) (at 56.00 147.56 180)(effects (font (size 1.27 1.27))(justify right))(uuid "c7d10e31-87b6-4d7e-87cb-47359f93de83"))
+	(global_label "HUB_DM2" (shape passive) (at 56.00 150.10 180)(effects (font (size 1.27 1.27))(justify right))(uuid "97389a0b-226c-4ba4-839f-58bd68b805a4"))
+	(global_label "HUB_DP2" (shape passive) (at 56.00 152.64 180)(effects (font (size 1.27 1.27))(justify right))(uuid "9ea9aa01-e26b-48c4-a3f5-b60c835a6fbf"))
+	(global_label "HUB_DM1" (shape passive) (at 56.00 155.18 180)(effects (font (size 1.27 1.27))(justify right))(uuid "d330d55a-d79d-4dbe-8e6c-14f1b4a30931"))
+	(global_label "HUB_DP1" (shape passive) (at 56.00 157.72 180)(effects (font (size 1.27 1.27))(justify right))(uuid "4d40b99e-c0d6-4897-83e9-7ee64f06a6d8"))
+	(global_label "USB_HUB_RST" (shape passive) (at 86.48 157.72 0)(effects (font (size 1.27 1.27))(justify left))(uuid "2e8612b6-5888-4da9-9b0d-5819209e0044"))
+	(global_label "MCU_USBH_DM" (shape passive) (at 86.48 155.18 0)(effects (font (size 1.27 1.27))(justify left))(uuid "4c1e92eb-ce67-49f5-aef8-576f2cff06a7"))
+	(global_label "MCU_USBH_DP" (shape passive) (at 86.48 152.64 0)(effects (font (size 1.27 1.27))(justify left))(uuid "19fb6ddc-2d27-4977-8ab6-77dcdc014313"))
+	(global_label "+5V" (shape passive) (at 86.48 150.10 0)(effects (font (size 1.27 1.27))(justify left))(uuid "1e239c9b-ab2d-4bd7-bd74-68ec29ec6617"))
+	(global_label "+3V3" (shape passive) (at 86.48 147.56 0)(effects (font (size 1.27 1.27))(justify left))(uuid "b5cc30fe-cc20-49d3-9e84-3442ccfabdb4"))
+	(global_label "GND" (shape passive) (at 86.48 145.02 0)(effects (font (size 1.27 1.27))(justify left))(uuid "a29804dc-9a33-42b6-b1ea-da7846f2fb36"))
+	(global_label "X2_XO" (shape passive) (at 86.48 142.48 0)(effects (font (size 1.27 1.27))(justify left))(uuid "434e651f-8f26-411e-a575-0fd72dcbddae"))
+	(global_label "X2_XI" (shape passive) (at 86.48 139.94 0)(effects (font (size 1.27 1.27))(justify left))(uuid "a281d947-3d4c-4be9-ae02-92678754dfb9"))
+	(global_label "X2_XO" (shape passive) (at 167.72 139.94 0)(effects (font (size 1.27 1.27))(justify left))(uuid "d27c5cd6-10be-49c7-8d4d-80021f9a774b"))
+	(global_label "X2_XI" (shape passive) (at 152.48 145.02 180)(effects (font (size 1.27 1.27))(justify right))(uuid "049d0314-d879-48c0-bd60-85b4e7d5e454"))
+	(global_label "GND" (shape passive) (at 167.72 145.02 0)(effects (font (size 1.27 1.27))(justify left))(uuid "cf91372e-1b88-4548-8008-4d672207a1b5"))
+	(global_label "GND" (shape passive) (at 152.48 139.94 180)(effects (font (size 1.27 1.27))(justify right))(uuid "84673420-acda-4ced-b4bd-6f7a6fea269c"))
+	(global_label "+5V" (shape passive) (at 233.72 139.94 180)(effects (font (size 1.27 1.27))(justify right))(uuid "145a286b-b9dd-4da1-ba94-20a490558894"))
+	(global_label "GND" (shape passive) (at 241.34 139.94 0)(effects (font (size 1.27 1.27))(justify left))(uuid "e6b0175f-34bc-4000-8904-ea9e69e85a20"))
+	(global_label "+3V3" (shape passive) (at 307.34 139.94 180)(effects (font (size 1.27 1.27))(justify right))(uuid "743c24af-2ef5-4dc9-8992-cb30cbfe222a"))
+	(global_label "GND" (shape passive) (at 314.96 139.94 0)(effects (font (size 1.27 1.27))(justify left))(uuid "f593634b-dc65-41ee-9ead-1516dd3f573f"))
+	(global_label "+5V" (shape passive) (at 56.00 215.72 180)(effects (font (size 1.27 1.27))(justify right))(uuid "5852929d-c2d4-4d9a-a00e-99f394bf6246"))
+	(global_label "HUB_DM1" (shape passive) (at 56.00 218.26 180)(effects (font (size 1.27 1.27))(justify right))(uuid "4a258ebc-2383-4ba3-85da-fee69b7eff32"))
+	(global_label "HUB_DP1" (shape passive) (at 56.00 220.80 180)(effects (font (size 1.27 1.27))(justify right))(uuid "42179301-f636-468f-937e-5e493791849c"))
+	(global_label "GND" (shape passive) (at 56.00 223.34 180)(effects (font (size 1.27 1.27))(justify right))(uuid "813008f9-6a7c-43e8-9a20-bbbee8acfb25"))
+	(global_label "+5V" (shape passive) (at 56.00 225.88 180)(effects (font (size 1.27 1.27))(justify right))(uuid "4c789f08-a8cf-4861-a5c2-d82fed517286"))
+	(global_label "HUB_DM2" (shape passive) (at 56.00 228.42 180)(effects (font (size 1.27 1.27))(justify right))(uuid "cb524785-8aa7-45ed-b992-8267f66be5c0"))
+	(global_label "HUB_DP2" (shape passive) (at 56.00 230.96 180)(effects (font (size 1.27 1.27))(justify right))(uuid "35a3ff71-9a10-453b-84d7-d42307f32549"))
+	(global_label "GND" (shape passive) (at 56.00 233.50 180)(effects (font (size 1.27 1.27))(justify right))(uuid "a53ed04c-0006-45f0-b4e5-99e5cacecdba"))
+	(global_label "GND" (shape passive) (at 80.13 228.42 0)(effects (font (size 1.27 1.27))(justify left))(uuid "c7496a26-2b1d-4200-b5a7-030f49c5aca2"))
+	(global_label "GND" (shape passive) (at 80.13 225.88 0)(effects (font (size 1.27 1.27))(justify left))(uuid "96b7ee28-23df-4cf5-917f-4dc98556f84d"))
+	(global_label "GND" (shape passive) (at 80.13 223.34 0)(effects (font (size 1.27 1.27))(justify left))(uuid "fc37daf8-1fc3-44ac-98f4-1e4921b44b5f"))
+	(global_label "GND" (shape passive) (at 80.13 220.80 0)(effects (font (size 1.27 1.27))(justify left))(uuid "eb17f09e-e434-40f5-89e3-ddc1c5a84dab"))
+	(global_label "+5V" (shape passive) (at 146.13 215.72 180)(effects (font (size 1.27 1.27))(justify right))(uuid "266b1bcd-9e6b-4ac4-9af5-b92ab188f685"))
+	(global_label "HUB_DM4" (shape passive) (at 146.13 218.26 180)(effects (font (size 1.27 1.27))(justify right))(uuid "10c8de44-a175-4a2e-b295-ed3b4759cc3e"))
+	(global_label "HUB_DP4" (shape passive) (at 146.13 220.80 180)(effects (font (size 1.27 1.27))(justify right))(uuid "2c122128-69dd-4c1e-8ef7-c54658100a1b"))
+	(global_label "GND" (shape passive) (at 146.13 223.34 180)(effects (font (size 1.27 1.27))(justify right))(uuid "a947b096-3f47-4e9a-b697-89c6518eb890"))
+	(global_label "+5V" (shape passive) (at 146.13 225.88 180)(effects (font (size 1.27 1.27))(justify right))(uuid "fb5fa3ae-9cec-42f2-9d53-840449dac50d"))
+	(global_label "HUB_DM3" (shape passive) (at 146.13 228.42 180)(effects (font (size 1.27 1.27))(justify right))(uuid "b5f95dfa-cdf3-409d-9303-032aee1b674d"))
+	(global_label "HUB_DP3" (shape passive) (at 146.13 230.96 180)(effects (font (size 1.27 1.27))(justify right))(uuid "36e59de0-e201-4b61-8e54-896f9ce0f62e"))
+	(global_label "GND" (shape passive) (at 146.13 233.50 180)(effects (font (size 1.27 1.27))(justify right))(uuid "60db4c14-0b0f-4e94-881a-2e98af9ce5f1"))
+	(global_label "GND" (shape passive) (at 170.26 228.42 0)(effects (font (size 1.27 1.27))(justify left))(uuid "83fba786-f345-4252-94b3-92d3391c724e"))
+	(global_label "GND" (shape passive) (at 170.26 225.88 0)(effects (font (size 1.27 1.27))(justify left))(uuid "ed015517-6df9-4a7b-9f78-5dbd63bdbdc3"))
+	(global_label "GND" (shape passive) (at 170.26 223.34 0)(effects (font (size 1.27 1.27))(justify left))(uuid "72c69242-1353-411e-9c81-320ebf8c2a4c"))
+	(global_label "GND" (shape passive) (at 170.26 220.80 0)(effects (font (size 1.27 1.27))(justify left))(uuid "52747c02-f64e-4e80-b92a-239d5edda662"))
+	(global_label "+5V" (shape passive) (at 63.62 291.50 0)(effects (font (size 1.27 1.27))(justify left))(uuid "cd054a87-39c9-43c1-ae52-bd282cc7638b"))
+	(global_label "GND" (shape passive) (at 56.00 291.50 180)(effects (font (size 1.27 1.27))(justify right))(uuid "4c804c61-421b-41b4-bd93-0daf4241c06d"))
+	(global_label "+5V" (shape passive) (at 137.24 291.50 0)(effects (font (size 1.27 1.27))(justify left))(uuid "85772dac-9658-44e3-ac37-559a8881b74b"))
+	(global_label "GND" (shape passive) (at 129.62 291.50 180)(effects (font (size 1.27 1.27))(justify right))(uuid "bc74f15b-b7f0-4fc6-a240-81cafc8e1f83"))
+	(global_label "+5V" (shape passive) (at 210.86 291.50 0)(effects (font (size 1.27 1.27))(justify left))(uuid "85bc710c-2d11-4fdb-853f-7b9e7a89a255"))
+	(global_label "GND" (shape passive) (at 203.24 291.50 180)(effects (font (size 1.27 1.27))(justify right))(uuid "78ce27e7-2b69-4c34-ada1-06fbd7011451"))
+	(global_label "+5V" (shape passive) (at 284.48 291.50 0)(effects (font (size 1.27 1.27))(justify left))(uuid "6ef32e6b-d5a9-4b55-979c-69734143578e"))
+	(global_label "GND" (shape passive) (at 276.86 291.50 180)(effects (font (size 1.27 1.27))(justify right))(uuid "244dc879-32bf-41a7-96da-0c5cee0fd0a3"))
+	(no_connect (at 56.00 59.08)(uuid "41aea997-b9a0-4c0c-bd50-ec19d2b38da1"))
+	(no_connect (at 56.00 74.32)(uuid "f2a61096-a1fc-4e22-8bbd-3139a2fedf12"))
+)
