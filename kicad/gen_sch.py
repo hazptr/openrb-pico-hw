@@ -71,8 +71,9 @@ DESIGN = {
    {"1":"+5V","2":"HUB_DM4","3":"HUB_DP4","4":"GND","5":"+5V","6":"HUB_DM3","7":"HUB_DP3","8":"GND","9":"GND","10":"GND","11":"GND","12":"GND"}),
  "F1": ("ASMD0603-020", "ASMD0603-020", FP("F0603"), {"1":"VBUS","2":"+5V"}),
  "H2": ("Header-Female-2.54_1x2", "PWR_IN", FP("HDR-TH_2P-P2.54-V-F"), {"1":"VBUS","2":"GND"}),
- "SWD1": ("22025403P00CKMT", "SWD", FP("HDR-TH_3P-P2.54-V-F"), {"1":"SWCLK","2":"SWDIO","3":"GND"}),
- "UART": ("22025403P00CKMT", "UART", FP("HDR-TH_3P-P2.54-V-F"), {"1":"DEBUG_TX","2":"DEBUG_RX","3":"GND"}),
+ # NOTE: GND is the MIDDLE/first pin on these headers (hardware-verified via SWD probe).
+ "SWD1": ("22025403P00CKMT", "SWD", FP("HDR-TH_3P-P2.54-V-F"), {"1":"SWCLK","2":"GND","3":"SWDIO"}),
+ "UART": ("22025403P00CKMT", "UART", FP("HDR-TH_3P-P2.54-V-F"), {"1":"GND","2":"DEBUG_TX","3":"DEBUG_RX"}),
  "RESET": ("PTS647SM38SMTR2LFS", "RESET", FP("KEY-SMD_4P-L4.5-W4.5-P3.00-LS6.5-TL"), {"1":"RST_BTN","2":"RST_BTN","3":"GND","4":"GND"}),
  "BOOT": ("PTS647SM38SMTR2LFS", "BOOT", FP("KEY-SMD_4P-L4.5-W4.5-P3.00-LS6.5-TL"), {"1":"BOOT_BTN","2":"BOOT_BTN","3":"GND","4":"GND"}),
  "LED_AUTH": ("19-217_R6C-AL1M2VY_3T", "AUTH", FP("LED0603-RD"), {"2":"N_AUTH","1":"GND"}),

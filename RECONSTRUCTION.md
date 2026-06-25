@@ -110,7 +110,8 @@ C18 1µF on +3V3; C19/C20 1µF on CH334R supplies.
 - X1 12MHz: XIN(20)↔X1.1, C16 15pF→GND; XOUT(21)→**R12 1k**→X1.3, C15 15pF→GND; X1 case pins→GND.
 - RESET: RP2040 RUN(26) ← **R13 10k** → +3V3 (pull-up); RUN ← **R11 1k** → RESET button → GND.
 - BOOT: QSPI_SS ← **R10 1k** → BOOT button → GND.
-- SWD1 header: 1=SWCLK, 2=SWDIO(SWD), 3=GND. UART header: 1=DEBUG_TX, 2=DEBUG_RX, 3=GND.
+- SWD1 header: 1=SWCLK, **2=GND**, 3=SWDIO. UART header: **1=GND**, 2=DEBUG_TX, 3=DEBUG_RX.
+  (GND is the middle/first pin — hardware-verified by connecting a CMSIS-DAP SWD probe; both RP2040 cores enumerated only with this mapping.)
 - Status LEDs: LED_AUTH ← R6 470 ← `LED1`(GPIO23); LED_3V3 ← R8 470 ← +3V3; LED_5V ← R7 1k ← +5V (all cathodes → GND).
 
 ---

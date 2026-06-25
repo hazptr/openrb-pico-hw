@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/home/delabrcd/dev/openrb-hardware/kicad/openrb/openrb.kicad_sch")
-		(date "2026-06-25T16:35:16")
+		(date "2026-06-25T17:33:46")
 		(tool "Eeschema 10.0.0-1.fc44")
 		(sheet
 			(number "1")
@@ -55,7 +55,7 @@
 		(sheet
 			(number "2")
 			(name "/USB/")
-			(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+			(tstamps "/b8d7e2b5-e330-4c62-a1ea-aa41354452af/")
 			(title_block
 				(title)
 				(company)
@@ -103,7 +103,7 @@
 		(sheet
 			(number "3")
 			(name "/MCU/")
-			(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+			(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			(title_block
 				(title)
 				(company)
@@ -151,7 +151,7 @@
 		(sheet
 			(number "4")
 			(name "/MIDI/")
-			(tstamps "/39f28e55-6307-4647-96e2-553b9090d6b4/")
+			(tstamps "/89e71270-848a-413c-b74b-717163a7c5be/")
 			(title_block
 				(title)
 				(company)
@@ -231,9 +231,9 @@
 			)
 			(sheetpath
 				(names "/USB/")
-				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+				(tstamps "/b8d7e2b5-e330-4c62-a1ea-aa41354452af/")
 			)
-			(tstamps "2f3d5ab7-fa3d-4eae-a760-74e775cf3285")
+			(tstamps "7f3ee33f-ae04-4e6e-aa38-a6a948bed220")
 			(units
 				(unit
 					(name "A")
@@ -281,9 +281,9 @@
 			)
 			(sheetpath
 				(names "/USB/")
-				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+				(tstamps "/b8d7e2b5-e330-4c62-a1ea-aa41354452af/")
 			)
-			(tstamps "2c22adb4-3e2c-488e-afb5-15d88283748b")
+			(tstamps "67bc58aa-595d-4dd4-9248-277bb2365dba")
 			(units
 				(unit
 					(name "A")
@@ -331,9 +331,9 @@
 			)
 			(sheetpath
 				(names "/USB/")
-				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+				(tstamps "/b8d7e2b5-e330-4c62-a1ea-aa41354452af/")
 			)
-			(tstamps "24dbe116-0a21-49a4-bb71-cbdde3037733")
+			(tstamps "38b4109a-ee8e-4e9e-b96a-e1ce6a781cdd")
 			(units
 				(unit
 					(name "A")
@@ -381,9 +381,9 @@
 			)
 			(sheetpath
 				(names "/USB/")
-				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+				(tstamps "/b8d7e2b5-e330-4c62-a1ea-aa41354452af/")
 			)
-			(tstamps "43c62960-756b-4388-80ea-21aaab66300a")
+			(tstamps "ed5fd44c-673e-44e6-9c4a-d964e4e168b6")
 			(units
 				(unit
 					(name "A")
@@ -431,9 +431,9 @@
 			)
 			(sheetpath
 				(names "/USB/")
-				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+				(tstamps "/b8d7e2b5-e330-4c62-a1ea-aa41354452af/")
 			)
-			(tstamps "2a3caa57-a248-4eaa-a777-898eccd19314")
+			(tstamps "3b1b2f19-1ffb-4bef-a759-2fb26650ead7")
 			(units
 				(unit
 					(name "A")
@@ -481,9 +481,9 @@
 			)
 			(sheetpath
 				(names "/USB/")
-				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+				(tstamps "/b8d7e2b5-e330-4c62-a1ea-aa41354452af/")
 			)
-			(tstamps "f938cb4f-69fd-4ddd-bcb5-f363c1a87e12")
+			(tstamps "19a51a21-252d-4b19-a842-6b4818df5aea")
 			(units
 				(unit
 					(name "A")
@@ -531,9 +531,9 @@
 			)
 			(sheetpath
 				(names "/USB/")
-				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+				(tstamps "/b8d7e2b5-e330-4c62-a1ea-aa41354452af/")
 			)
-			(tstamps "d9d781cb-6ca4-4583-9d40-36bfa666cccd")
+			(tstamps "3767c00d-6c72-4f4b-8e88-1805daea3b42")
 			(units
 				(unit
 					(name "A")
@@ -593,9 +593,9 @@
 			)
 			(sheetpath
 				(names "/USB/")
-				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+				(tstamps "/b8d7e2b5-e330-4c62-a1ea-aa41354452af/")
 			)
-			(tstamps "9810c141-01eb-425e-82eb-fa4b2ac44b5e")
+			(tstamps "5f9caa47-d964-4224-84b6-32be546d0f0e")
 			(units
 				(unit
 					(name "A")
@@ -643,9 +643,9 @@
 			)
 			(sheetpath
 				(names "/USB/")
-				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+				(tstamps "/b8d7e2b5-e330-4c62-a1ea-aa41354452af/")
 			)
-			(tstamps "362103e1-efa9-4b50-ac18-029667772a54")
+			(tstamps "b1d217b8-45dd-42c7-9fcf-9c4c1f727370")
 			(units
 				(unit
 					(name "A")
@@ -693,9 +693,9 @@
 			)
 			(sheetpath
 				(names "/USB/")
-				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+				(tstamps "/b8d7e2b5-e330-4c62-a1ea-aa41354452af/")
 			)
-			(tstamps "92b419bb-026f-4a3f-9dbf-904c32a9faef")
+			(tstamps "439934f5-4d19-47d4-98d1-129572f8b2fa")
 			(units
 				(unit
 					(name "A")
@@ -743,9 +743,9 @@
 			)
 			(sheetpath
 				(names "/USB/")
-				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+				(tstamps "/b8d7e2b5-e330-4c62-a1ea-aa41354452af/")
 			)
-			(tstamps "10f476bd-871b-4b64-bddd-de8d81a0c139")
+			(tstamps "15b41622-021e-47fd-90fe-1d1d465b1a36")
 			(units
 				(unit
 					(name "A")
@@ -789,9 +789,9 @@
 			)
 			(sheetpath
 				(names "/USB/")
-				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+				(tstamps "/b8d7e2b5-e330-4c62-a1ea-aa41354452af/")
 			)
-			(tstamps "e4e8b2a1-c6c7-4432-b360-a3bd4b28894b")
+			(tstamps "bb6733bd-c1d7-4e47-bff0-5600e6e799db")
 			(units
 				(unit
 					(name "A")
@@ -881,9 +881,9 @@
 			)
 			(sheetpath
 				(names "/USB/")
-				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+				(tstamps "/b8d7e2b5-e330-4c62-a1ea-aa41354452af/")
 			)
-			(tstamps "44f4c996-0224-4051-90be-47185e963e60")
+			(tstamps "87a46ec6-d59c-40d2-9ed3-1a0f54e9cdea")
 			(units
 				(unit
 					(name "A")
@@ -961,9 +961,9 @@
 			)
 			(sheetpath
 				(names "/USB/")
-				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+				(tstamps "/b8d7e2b5-e330-4c62-a1ea-aa41354452af/")
 			)
-			(tstamps "c2c6f087-869e-4d35-ad2c-d3cc7673083b")
+			(tstamps "3fcae96b-4b2f-4560-8ea3-0c7bbc1a914c")
 			(units
 				(unit
 					(name "A")
@@ -1041,9 +1041,9 @@
 			)
 			(sheetpath
 				(names "/USB/")
-				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+				(tstamps "/b8d7e2b5-e330-4c62-a1ea-aa41354452af/")
 			)
-			(tstamps "f303fb6c-8ebf-45f9-9e02-3ec855a97912")
+			(tstamps "8e634d18-249f-427b-8e89-f974d26c485a")
 			(units
 				(unit
 					(name "A")
@@ -1133,9 +1133,9 @@
 			)
 			(sheetpath
 				(names "/USB/")
-				(tstamps "/f00d8e8a-4467-4500-b883-82b38ef84e95/")
+				(tstamps "/b8d7e2b5-e330-4c62-a1ea-aa41354452af/")
 			)
-			(tstamps "19ee7a72-661b-4380-a91c-fbe9abae3f91")
+			(tstamps "f0133e9f-7297-4a9a-94a1-a0bf1fde8847")
 			(units
 				(unit
 					(name "A")
@@ -1189,9 +1189,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "31822948-a7af-4c89-9ab6-d99575d3cffd")
+			(tstamps "bf54b154-a1ac-425d-ae32-4579979b66c7")
 			(units
 				(unit
 					(name "A")
@@ -1245,9 +1245,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "a500fa87-d31b-428a-814f-e27e7777318c")
+			(tstamps "76747ca3-f792-4d34-a913-65759fce5e7d")
 			(units
 				(unit
 					(name "A")
@@ -1295,9 +1295,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "d554efb7-9dd0-4911-860a-dd76fef279fd")
+			(tstamps "1aa00410-b82a-4aba-9da1-49d0731f2d4d")
 			(units
 				(unit
 					(name "A")
@@ -1345,9 +1345,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "ff9b519d-7893-43ac-9350-1212e5cbe999")
+			(tstamps "f46486f1-ee60-4d4f-80d0-ea102ec880d1")
 			(units
 				(unit
 					(name "A")
@@ -1395,9 +1395,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "f765b0af-7acd-43a7-881a-bb2f5a9deee9")
+			(tstamps "57322b33-540d-4ca5-a6e8-ba6d48f81771")
 			(units
 				(unit
 					(name "A")
@@ -1445,9 +1445,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "87aca4f3-3561-46cf-85e2-2fa286f125eb")
+			(tstamps "e7550531-3982-4e92-a6e3-85753e5c45e6")
 			(units
 				(unit
 					(name "A")
@@ -1495,9 +1495,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "8b036103-3587-4c42-9f7b-396c3d438cd3")
+			(tstamps "a24e5bdd-fb18-4066-9383-158711abb47f")
 			(units
 				(unit
 					(name "A")
@@ -1545,9 +1545,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "bbac00f9-66a4-4e71-9372-440738b54501")
+			(tstamps "4ff9fc6a-5831-4eeb-a470-fc00891d2d78")
 			(units
 				(unit
 					(name "A")
@@ -1595,9 +1595,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "2b47a26d-1100-4753-9855-1a0cb6003efc")
+			(tstamps "162c6962-eeb6-411a-b8a7-7ef12a841a14")
 			(units
 				(unit
 					(name "A")
@@ -1645,9 +1645,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "6660751d-3814-4282-af81-9c4e1c8f641f")
+			(tstamps "ad342fc1-69a5-4bc4-b046-4185fba4d188")
 			(units
 				(unit
 					(name "A")
@@ -1695,9 +1695,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "37a4bf2a-6af9-44b8-9c34-08d4ad7d0cb1")
+			(tstamps "d55b154a-4ffe-4157-9db0-a0ca9ac53fea")
 			(units
 				(unit
 					(name "A")
@@ -1745,9 +1745,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "d3b10b47-fb29-4bd5-9f3c-67d913eda87b")
+			(tstamps "7687aaed-95bd-4991-b3b1-2000e6c98cfa")
 			(units
 				(unit
 					(name "A")
@@ -1795,9 +1795,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "bce959b0-4ca3-4dda-95db-6b792b9c56a1")
+			(tstamps "f70aeae0-79c4-4cc0-b054-f468a4bf6619")
 			(units
 				(unit
 					(name "A")
@@ -1845,9 +1845,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "9df1893e-ab37-4150-87f7-fe13a3cbe873")
+			(tstamps "7f749fb8-a6db-416a-a4f2-70427c136785")
 			(units
 				(unit
 					(name "A")
@@ -1895,9 +1895,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "f480ab38-2037-4059-a035-9d01650b3958")
+			(tstamps "6ed7eafd-967f-4f48-8739-4eecac4b45b1")
 			(units
 				(unit
 					(name "A")
@@ -1945,9 +1945,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "76acb131-9a8b-4bb2-91bf-cab43588f10a")
+			(tstamps "f1a227b9-6255-4830-b842-5f55f0e94167")
 			(units
 				(unit
 					(name "A")
@@ -1995,9 +1995,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "faee2363-3909-4d0a-aeac-9b5238f2b97b")
+			(tstamps "9adee1ea-a0fe-44e1-b9a8-2e2560466c2c")
 			(units
 				(unit
 					(name "A")
@@ -2045,9 +2045,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "d09daa1a-0485-4130-a842-350e8c5003ee")
+			(tstamps "67c34961-8745-4053-97e1-37a52c87f249")
 			(units
 				(unit
 					(name "A")
@@ -2095,9 +2095,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "a21b36a6-2b1a-4872-9f74-4e47aa940d3b")
+			(tstamps "52dd4a0d-4437-49d2-b6df-da615f653e52")
 			(units
 				(unit
 					(name "A")
@@ -2145,9 +2145,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "9c5f566f-f62b-476a-bbfe-7c40a9996850")
+			(tstamps "0f172402-0763-42d0-bdb4-e86879a56588")
 			(units
 				(unit
 					(name "A")
@@ -2195,9 +2195,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "ea5b9366-af82-4608-ba72-46539895e9d1")
+			(tstamps "c6c9ea80-96b9-48e9-bca7-a03f0bfb556d")
 			(units
 				(unit
 					(name "A")
@@ -2245,9 +2245,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "68cf2f59-efa5-4196-867b-a78b64a8f070")
+			(tstamps "de99af5c-c9f2-4a3c-a587-c0153b9c3490")
 			(units
 				(unit
 					(name "A")
@@ -2295,9 +2295,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "b833f81c-dba9-431e-af84-a96f67a123cf")
+			(tstamps "30bf297f-a13b-4715-966b-e1feb22309c5")
 			(units
 				(unit
 					(name "A")
@@ -2345,9 +2345,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "21323357-a622-4519-9dd6-894949d46fc6")
+			(tstamps "0303b696-d156-4313-8dc4-f39222009fa2")
 			(units
 				(unit
 					(name "A")
@@ -2395,9 +2395,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "0e4cf945-1f99-4e1b-8822-a894cd78dacc")
+			(tstamps "9b76a8db-1a00-44d3-a4ab-6bdea111b5fa")
 			(units
 				(unit
 					(name "A")
@@ -2445,9 +2445,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "9377aab3-e70b-40f2-8edf-2666846a57a0")
+			(tstamps "9e0c9cb8-b6f7-4921-8eb5-cdae5ba9d65d")
 			(units
 				(unit
 					(name "A")
@@ -2495,9 +2495,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "a0c3fabd-a455-4f15-ac1b-925f8ae197d9")
+			(tstamps "e358fa7c-ebec-4a96-9169-49ef5bda0110")
 			(units
 				(unit
 					(name "A")
@@ -2545,9 +2545,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "6d47deba-739d-43fd-ac86-0b0cd21127b6")
+			(tstamps "e1be41c8-7aaf-4057-bc14-3b0508633b53")
 			(units
 				(unit
 					(name "A")
@@ -2595,9 +2595,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "50433c4f-6e5f-4d4d-add8-05b4712bfb0e")
+			(tstamps "f1fc5517-bbba-4dd1-bf85-dd56e584bef1")
 			(units
 				(unit
 					(name "A")
@@ -2651,9 +2651,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "a0453e17-f763-4f2d-b17e-39b16e264f95")
+			(tstamps "daec51cf-1da2-450e-bb38-80881fd35e55")
 			(units
 				(unit
 					(name "A")
@@ -2704,9 +2704,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "282b1707-60cc-48c9-aef8-27cc95bca144")
+			(tstamps "5d97cfa7-ca56-47fc-816e-9fd874287c34")
 			(units
 				(unit
 					(name "A")
@@ -2919,9 +2919,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "07b6c4b9-c7cf-4eca-b00f-6e79a362db6d")
+			(tstamps "b6d263a5-6536-4600-bbd0-8cfedb480994")
 			(units
 				(unit
 					(name "A")
@@ -2978,9 +2978,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "59b9252b-063e-4a59-8603-a0fccba3c949")
+			(tstamps "f6d6ab5f-b68e-4eaa-ac94-a3a7baa0e5aa")
 			(units
 				(unit
 					(name "A")
@@ -3049,9 +3049,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "b682dcf2-57b5-4113-9b2f-8cafcd6ffee7")
+			(tstamps "03077329-fdda-4de8-a32a-43330bcf3628")
 			(units
 				(unit
 					(name "A")
@@ -3102,9 +3102,9 @@
 			)
 			(sheetpath
 				(names "/MCU/")
-				(tstamps "/74a3775b-74e8-4dfb-91ec-ac44ed5feb63/")
+				(tstamps "/f7c08959-1e2d-4f3e-a8c0-a0faed802f2d/")
 			)
-			(tstamps "87d1b576-2c38-4c02-ac37-bacb24634e22")
+			(tstamps "b1bdbfc4-16b6-4802-ad05-ce351a0dac60")
 			(units
 				(unit
 					(name "A")
@@ -3158,9 +3158,9 @@
 			)
 			(sheetpath
 				(names "/MIDI/")
-				(tstamps "/39f28e55-6307-4647-96e2-553b9090d6b4/")
+				(tstamps "/89e71270-848a-413c-b74b-717163a7c5be/")
 			)
-			(tstamps "42e91e64-f65e-424e-8090-e630c9e2235c")
+			(tstamps "fcc8972d-37bd-440b-8825-4570742406a9")
 			(units
 				(unit
 					(name "A")
@@ -3204,9 +3204,9 @@
 			)
 			(sheetpath
 				(names "/MIDI/")
-				(tstamps "/39f28e55-6307-4647-96e2-553b9090d6b4/")
+				(tstamps "/89e71270-848a-413c-b74b-717163a7c5be/")
 			)
-			(tstamps "e22b5f1b-b60c-4084-8591-cdeac133c68f")
+			(tstamps "b65f5012-6033-4fa5-99df-a48a4db6d0d4")
 			(units
 				(unit
 					(name "A")
@@ -3257,9 +3257,9 @@
 			)
 			(sheetpath
 				(names "/MIDI/")
-				(tstamps "/39f28e55-6307-4647-96e2-553b9090d6b4/")
+				(tstamps "/89e71270-848a-413c-b74b-717163a7c5be/")
 			)
-			(tstamps "ca4b7efb-103b-4c15-8d13-127e9c763c3e")
+			(tstamps "2d5ef221-96d4-4c58-ad13-6d3825b18b45")
 			(units
 				(unit
 					(name "A")
@@ -3307,9 +3307,9 @@
 			)
 			(sheetpath
 				(names "/MIDI/")
-				(tstamps "/39f28e55-6307-4647-96e2-553b9090d6b4/")
+				(tstamps "/89e71270-848a-413c-b74b-717163a7c5be/")
 			)
-			(tstamps "03a271b0-a038-47c3-9478-395c54cf8e0a")
+			(tstamps "d7c6ed80-a01c-45ec-b52a-89608e1f34b0")
 			(units
 				(unit
 					(name "A")
@@ -3357,9 +3357,9 @@
 			)
 			(sheetpath
 				(names "/MIDI/")
-				(tstamps "/39f28e55-6307-4647-96e2-553b9090d6b4/")
+				(tstamps "/89e71270-848a-413c-b74b-717163a7c5be/")
 			)
-			(tstamps "8e9abd65-b4b7-474e-b7c2-935c53393150")
+			(tstamps "bd8202f0-1f0c-470f-b855-19c619a9ce94")
 			(units
 				(unit
 					(name "A")
@@ -5130,8 +5130,8 @@
 			)
 			(node
 				(ref "UART")
-				(pin "2")
-				(pinfunction "2_2")
+				(pin "3")
+				(pinfunction "3_3")
 				(pintype "unspecified")
 			)
 		)
@@ -5147,8 +5147,8 @@
 			)
 			(node
 				(ref "UART")
-				(pin "1")
-				(pinfunction "1_1")
+				(pin "2")
+				(pinfunction "2_2")
 				(pintype "unspecified")
 			)
 		)
@@ -5413,8 +5413,8 @@
 			)
 			(node
 				(ref "SWD1")
-				(pin "3")
-				(pinfunction "3_3")
+				(pin "2")
+				(pinfunction "2_2")
 				(pintype "unspecified")
 			)
 			(node
@@ -5461,8 +5461,8 @@
 			)
 			(node
 				(ref "UART")
-				(pin "3")
-				(pinfunction "3_3")
+				(pin "1")
+				(pinfunction "1_1")
 				(pintype "unspecified")
 			)
 			(node
@@ -6133,8 +6133,8 @@
 			(class "Default")
 			(node
 				(ref "SWD1")
-				(pin "2")
-				(pinfunction "2_2")
+				(pin "3")
+				(pinfunction "3_3")
 				(pintype "unspecified")
 			)
 			(node
