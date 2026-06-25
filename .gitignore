@@ -3,3 +3,7 @@ build/
 *.kicad_pcb-bak
 fp-info-cache
 _autosave-*
+.venv/
+build/
+__pycache__/
+*.pyc
