@@ -1,0 +1,15 @@
+{
+  "name": "openrb-tscircuit",
+  "private": true,
+  "description": "OpenRB board as config-as-code (tscircuit) — proof of concept",
+  "scripts": {
+    "render": "tsci export --format schematic-svg -o renders/midi-schematic.svg midi.tsx",
+    "kicad": "tsci export --format kicad_sch -o renders/midi.kicad_sch midi.tsx",
+    "netlist": "tsci export --format readable-netlist -o renders/midi.netlist.txt midi.tsx",
+    "dev": "tsci dev midi.tsx"
+  },
+  "dependencies": {
+    "@tscircuit/cli": "*",
+    "tscircuit": "*"
+  }
+}
