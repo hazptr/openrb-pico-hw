@@ -1,0 +1,426 @@
+COMPONENTS:
+ - U1: RP2040
+ - U5: W25Q16JVUXIQ
+ - R10: 1kΩ res0402 resistor
+ - BOOT: BOOT, source_component
+ - X1: X322512MSB4SI
+ - R12: 1kΩ res0402 resistor
+ - C16: 15pF 0402 capacitor
+ - C15: 15pF 0402 capacitor
+ - R13: 10kΩ res0402 resistor
+ - R11: 1kΩ res0402 resistor
+ - RESET: RESET, source_component
+ - F1: ASMD0603_020
+ - H2: pinrow2
+ - U4: RT9080_33GJ5
+ - R9: 10kΩ res0402 resistor
+ - C1: 10uF 0805 capacitor
+ - C2: 10uF 0805 capacitor
+ - SWD1: B_2200S03P_A120
+ - UART: B_2200S03P_A120
+ - R6: 470Ω res0402 resistor
+ - LED_AUTH: LED_AUTH, source_component
+ - R8: 470Ω res0402 resistor
+ - LED_3V3: LED_3V3, source_component
+ - R7: 1kΩ res0402 resistor
+ - LED_5V: LED_5V, source_component
+ - C3: 100nF 0402 capacitor
+ - C4: 100nF 0402 capacitor
+ - C5: 100nF 0402 capacitor
+ - C6: 100nF 0402 capacitor
+ - C8: 100nF 0402 capacitor
+ - C9: 100nF 0402 capacitor
+ - C10: 100nF 0402 capacitor
+ - C11: 100nF 0402 capacitor
+ - C7: 1uF 0402 capacitor
+ - C18: 1uF 0402 capacitor
+
+NET: QSPI_SD0
+  - U5 pin5
+  - U1 QSPI_SD0
+
+NET: QSPI_SD1
+  - U5 pin2
+  - U1 QSPI_SD1
+
+NET: QSPI_SD2
+  - U5 pin3
+  - U1 QSPI_SD2
+
+NET: QSPI_SD3
+  - U5 pin7
+  - U1 QSPI_SD3
+
+NET: QSPI_SCLK
+  - U5 CLK
+  - U1 QSPI_SCLK
+
+NET: QSPI_SS
+  - R10 pin1
+  - U5 CS
+  - U1 QSPI_SS
+
+NET: BOOT_SW
+  - BOOT pin1
+  - R10 pin2
+
+NET: XOUT
+  - R12 pin1
+  - U1 XOUT
+
+NET: XIN
+  - C16 pin1 (+)
+  - X1 OSC1
+  - U1 XIN
+
+NET: X1_XOUT
+  - C15 pin1 (+)
+  - R12 pin2
+  - X1 OSC2
+
+NET: RUN
+  - R11 pin1
+  - R13 pin1
+  - U1 RUN
+
+NET: RESET_SW
+  - RESET pin1
+  - R11 pin2
+
+NET: VBUS
+  - H2 P1
+  - F1 pin1
+
+NET: EN
+  - R9 pin1
+  - U4 EN
+
+NET: SWCLK
+  - SWD1 pin1
+  - U1 SWCLK
+
+NET: SWDIO
+  - SWD1 pin3
+  - U1 SWD
+
+NET: DEBUG_TX
+  - UART pin2
+  - U1 GPIO24
+
+NET: DEBUG_RX
+  - UART pin3
+  - U1 GPIO25
+
+NET: LED1
+  - R6 pin1
+  - U1 GPIO23
+
+NET: LED_AUTH_A
+  - LED_AUTH pin1 (+)
+  - R6 pin2
+
+NET: LED_3V3_A
+  - LED_3V3 pin1 (+)
+  - R8 pin2
+
+NET: V5V
+  - R7 pin1
+  - R9 pin2
+  - U4 VIN
+  - F1 pin2
+
+NET: LED_5V_A
+  - LED_5V pin1 (+)
+  - R7 pin2
+
+NET: V1V1
+  - C7 pin1 (+)
+  - C11 pin1 (+)
+  - C10 pin1 (+)
+  - U1 DVDD2
+  - U1 DVDD1
+  - U1 VREG_VOUT
+
+NET: V3V3
+  - C18 pin1 (+)
+  - C9 pin1 (+)
+  - C8 pin1 (+)
+  - C6 pin1 (+)
+  - C5 pin1 (+)
+  - C4 pin1 (+)
+  - C3 pin1 (+)
+  - R8 pin1
+  - C2 pin1 (+)
+  - C1 pin1 (+)
+  - U4 VOUT
+  - R13 pin2
+  - U5 VCC
+  - U1 VREG_IN
+  - U1 ADC_AVDD
+  - U1 USB_VDD
+  - U1 IOVDD6
+  - U1 IOVDD5
+  - U1 IOVDD4
+  - U1 IOVDD3
+  - U1 IOVDD2
+  - U1 IOVDD1
+
+NET: GND
+  - C18 pin2 (-)
+  - C7 pin2 (-)
+  - C11 pin2 (-)
+  - C10 pin2 (-)
+  - C9 pin2 (-)
+  - C8 pin2 (-)
+  - C6 pin2 (-)
+  - C5 pin2 (-)
+  - C4 pin2 (-)
+  - C3 pin2 (-)
+  - LED_5V pin2 (-)
+  - LED_3V3 pin2 (-)
+  - LED_AUTH pin2 (-)
+  - UART pin1
+  - SWD1 pin2
+  - C2 pin2 (-)
+  - C1 pin2 (-)
+  - U4 GND
+  - H2 P2
+  - RESET pin2
+  - C15 pin2 (-)
+  - C16 pin2 (-)
+  - X1 GND1
+  - X1 GND2
+  - BOOT pin2
+  - U5 EP
+  - U5 GND
+  - U1 TESTEN
+  - U1 GND
+
+
+EMPTY NET PINS:
+  - U1 USB_DP
+  - U1 USB_DM
+  - U1 GPIO16
+  - U1 GPIO17
+  - U1 GPIO18
+  - U1 GPIO1
+
+COMPONENT_PINS:
+U1 (RP2040)
+- pin1(IOVDD6): NETS(V3V3)
+- pin2(GPIO0): NOT_CONNECTED
+- pin3(GPIO1): NETS(MIDI_RX)
+- pin4(GPIO2): NOT_CONNECTED
+- pin5(GPIO3): NOT_CONNECTED
+- pin6(GPIO4): NOT_CONNECTED
+- pin7(GPIO5): NOT_CONNECTED
+- pin8(GPIO6): NOT_CONNECTED
+- pin9(GPIO7): NOT_CONNECTED
+- pin10(IOVDD5): NETS(V3V3)
+- pin11(GPIO8): NOT_CONNECTED
+- pin12(GPIO9): NOT_CONNECTED
+- pin13(GPIO10): NOT_CONNECTED
+- pin14(GPIO11): NOT_CONNECTED
+- pin15(GPIO12): NOT_CONNECTED
+- pin16(GPIO13): NOT_CONNECTED
+- pin17(GPIO14): NOT_CONNECTED
+- pin18(GPIO15): NOT_CONNECTED
+- pin19(TESTEN): NETS(GND)
+- pin20(XIN): NETS(XIN)
+- pin21(XOUT): NETS(XOUT)
+- pin22(IOVDD4): NETS(V3V3)
+- pin23(DVDD2): NETS(V1V1)
+- pin24(SWCLK): NETS(SWCLK)
+- pin25(SWD): NETS(SWDIO)
+- pin26(RUN): NETS(RUN)
+- pin27(GPIO16): NETS(MCU_USBH_DP)
+- pin28(GPIO17): NETS(MCU_USBH_DM)
+- pin29(GPIO18): NETS(USB_HUB_RST)
+- pin30(GPIO19): NOT_CONNECTED
+- pin31(GPIO20): NOT_CONNECTED
+- pin32(GPIO21): NOT_CONNECTED
+- pin33(IOVDD3): NETS(V3V3)
+- pin34(GPIO22): NOT_CONNECTED
+- pin35(GPIO23): NETS(LED1)
+- pin36(GPIO24): NETS(DEBUG_TX)
+- pin37(GPIO25): NETS(DEBUG_RX)
+- pin38(GPIO26_ADC0): NOT_CONNECTED
+- pin39(GPIO27_ADC1): NOT_CONNECTED
+- pin40(GPIO28_ADC2): NOT_CONNECTED
+- pin41(GPIO29_ADC3): NOT_CONNECTED
+- pin42(IOVDD2): NETS(V3V3)
+- pin43(ADC_AVDD): NETS(V3V3)
+- pin44(VREG_IN): NETS(V3V3)
+- pin45(VREG_VOUT): NETS(V1V1)
+- pin46(USB_DM): NETS(MCU_USBD_DM)
+- pin47(USB_DP): NETS(MCU_USBD_DP)
+- pin48(USB_VDD): NETS(V3V3)
+- pin49(IOVDD1): NETS(V3V3)
+- pin50(DVDD1): NETS(V1V1)
+- pin51(QSPI_SD3): NETS(QSPI_SD3)
+- pin52(QSPI_SCLK): NETS(QSPI_SCLK)
+- pin53(QSPI_SD0): NETS(QSPI_SD0)
+- pin54(QSPI_SD2): NETS(QSPI_SD2)
+- pin55(QSPI_SD1): NETS(QSPI_SD1)
+- pin56(QSPI_SS): NETS(QSPI_SS)
+- pin57(GND, thermalpad): NETS(GND)
+
+U5 (W25Q16JVUXIQ)
+- pin1(CS): NETS(QSPI_SS)
+- pin2: NETS(QSPI_SD1)
+- pin3: NETS(QSPI_SD2)
+- pin4(GND): NETS(GND)
+- pin5: NETS(QSPI_SD0)
+- pin6(CLK): NETS(QSPI_SCLK)
+- pin7: NETS(QSPI_SD3)
+- pin8(VCC): NETS(V3V3)
+- pin9(EP): NETS(GND)
+
+R10 (1kΩ res0402)
+- pin1(anode, pos, left): NETS(QSPI_SS)
+- pin2(cathode, neg, right): NETS(BOOT_SW)
+
+BOOT
+- pin1: NETS(BOOT_SW)
+- pin2: NETS(GND)
+- pin3: NOT_CONNECTED
+- pin4: NOT_CONNECTED
+
+X1 (X322512MSB4SI)
+- pin1(OSC1): NETS(XIN)
+- pin1(OSC1): NOT_CONNECTED
+- pin2(GND1): NETS(GND)
+- pin2(GND1, GND): NOT_CONNECTED
+- pin3(OSC2): NETS(X1_XOUT)
+- pin3(OSC2): NOT_CONNECTED
+- pin4(GND2): NETS(GND)
+- pin4(GND2, GND): NOT_CONNECTED
+
+R12 (1kΩ res0402)
+- pin1(anode, pos, left): NETS(XOUT)
+- pin2(cathode, neg, right): NETS(X1_XOUT)
+
+C16 (15pF 0402)
+- pin1(pos, anode, left): NETS(XIN)
+- pin2(neg, cathode, right): NETS(GND)
+
+C15 (15pF 0402)
+- pin1(pos, anode, left): NETS(X1_XOUT)
+- pin2(neg, cathode, right): NETS(GND)
+
+R13 (10kΩ res0402)
+- pin1(anode, pos, left): NETS(RUN)
+- pin2(cathode, neg, right): NETS(V3V3)
+
+R11 (1kΩ res0402)
+- pin1(anode, pos, left): NETS(RUN)
+- pin2(cathode, neg, right): NETS(RESET_SW)
+
+RESET
+- pin1: NETS(RESET_SW)
+- pin2: NETS(GND)
+- pin3: NOT_CONNECTED
+- pin4: NOT_CONNECTED
+
+F1 (ASMD0603_020)
+- pin1(left): NETS(VBUS)
+- pin1: NOT_CONNECTED
+- pin2(right): NETS(V5V)
+- pin2: NOT_CONNECTED
+
+H2
+- pin1(P1): NETS(VBUS)
+- pin2(P2): NETS(GND)
+
+U4 (RT9080_33GJ5)
+- pin1(VIN): NETS(V5V)
+- pin2(GND): NETS(GND)
+- pin3(EN): NETS(EN)
+- pin4(NC): NOT_CONNECTED
+- pin5(VOUT): NETS(V3V3)
+
+R9 (10kΩ res0402)
+- pin1(anode, pos, left): NETS(EN)
+- pin2(cathode, neg, right): NETS(V5V)
+
+C1 (10uF 0805)
+- pin1(pos, anode, left): NETS(V3V3)
+- pin2(neg, cathode, right): NETS(GND)
+
+C2 (10uF 0805)
+- pin1(pos, anode, left): NETS(V3V3)
+- pin2(neg, cathode, right): NETS(GND)
+
+SWD1 (B_2200S03P_A120)
+- pin1: NETS(SWCLK)
+- pin2: NETS(GND)
+- pin3: NETS(SWDIO)
+
+UART (B_2200S03P_A120)
+- pin1: NETS(GND)
+- pin2: NETS(DEBUG_TX)
+- pin3: NETS(DEBUG_RX)
+
+R6 (470Ω res0402)
+- pin1(anode, pos, left): NETS(LED1)
+- pin2(cathode, neg, right): NETS(LED_AUTH_A)
+
+LED_AUTH
+- pin1(anode, pos, left): NETS(LED_AUTH_A)
+- pin2(cathode, neg, right): NETS(GND)
+
+R8 (470Ω res0402)
+- pin1(anode, pos, left): NETS(V3V3)
+- pin2(cathode, neg, right): NETS(LED_3V3_A)
+
+LED_3V3
+- pin1(anode, pos, left): NETS(LED_3V3_A)
+- pin2(cathode, neg, right): NETS(GND)
+
+R7 (1kΩ res0402)
+- pin1(anode, pos, left): NETS(V5V)
+- pin2(cathode, neg, right): NETS(LED_5V_A)
+
+LED_5V
+- pin1(anode, pos, left): NETS(LED_5V_A)
+- pin2(cathode, neg, right): NETS(GND)
+
+C3 (100nF 0402)
+- pin1(pos, anode, left): NETS(V3V3)
+- pin2(neg, cathode, right): NETS(GND)
+
+C4 (100nF 0402)
+- pin1(pos, anode, left): NETS(V3V3)
+- pin2(neg, cathode, right): NETS(GND)
+
+C5 (100nF 0402)
+- pin1(pos, anode, left): NETS(V3V3)
+- pin2(neg, cathode, right): NETS(GND)
+
+C6 (100nF 0402)
+- pin1(pos, anode, left): NETS(V3V3)
+- pin2(neg, cathode, right): NETS(GND)
+
+C8 (100nF 0402)
+- pin1(pos, anode, left): NETS(V3V3)
+- pin2(neg, cathode, right): NETS(GND)
+
+C9 (100nF 0402)
+- pin1(pos, anode, left): NETS(V3V3)
+- pin2(neg, cathode, right): NETS(GND)
+
+C10 (100nF 0402)
+- pin1(pos, anode, left): NETS(V1V1)
+- pin2(neg, cathode, right): NETS(GND)
+
+C11 (100nF 0402)
+- pin1(pos, anode, left): NETS(V1V1)
+- pin2(neg, cathode, right): NETS(GND)
+
+C7 (1uF 0402)
+- pin1(pos, anode, left): NETS(V1V1)
+- pin2(neg, cathode, right): NETS(GND)
+
+C18 (1uF 0402)
+- pin1(pos, anode, left): NETS(V3V3)
+- pin2(neg, cathode, right): NETS(GND)

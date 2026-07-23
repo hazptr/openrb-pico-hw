@@ -10,15 +10,16 @@ import { H11L1 } from "./imports/H11L1"
 
 export default () => (
   <board width="60mm" height="40mm">
-    {/* Adafruit CP-2350 TRS MIDI jack: tip/ring = current-loop lines, sleeve = shield */}
+    {/* 5-pin DIN MIDI IN jack: pin4/pin5 = the current-loop lines, pin2 = shield,
+        pins 1 & 3 unused (standard MIDI DIN-5). */}
     <chip
       name="J1"
-      footprint="pinrow3"
-      pinLabels={{ pin1: "TIP", pin2: "RING", pin3: "SLEEVE" }}
+      footprint="pinrow5"
+      pinLabels={{ pin1: "P1", pin2: "SHIELD", pin3: "P3", pin4: "MIDI_SRC", pin5: "MIDI_RTN" }}
       schX={-5}
       schY={0}
       schPinArrangement={{
-        rightSide: { direction: "top-to-bottom", pins: ["TIP", "RING", "SLEEVE"] },
+        rightSide: { direction: "top-to-bottom", pins: ["P1", "SHIELD", "P3", "MIDI_SRC", "MIDI_RTN"] },
       }}
     />
 
@@ -40,9 +41,9 @@ export default () => (
     <resistor name="R4" resistance="470" footprint="0402" schX={4.5} schY={1.5} schRotation={90} />
 
     {/* local wiring — drawn as wires, not labels */}
-    <trace from={sel.J1.TIP} to={sel.R2.pin1} />
+    <trace from={sel.J1.MIDI_SRC} to={sel.R2.pin1} />
     <trace from={sel.R2.pin2} to={sel.U6.AN} />
-    <trace from={sel.J1.RING} to={sel.U6.CAT} />
+    <trace from={sel.J1.MIDI_RTN} to={sel.U6.CAT} />
     <trace from={sel.D1.cathode} to={sel.U6.AN} />
     <trace from={sel.D1.anode} to={sel.U6.CAT} />
     <trace from={sel.U6.VO} to={sel.R4.pin1} />
@@ -51,7 +52,7 @@ export default () => (
     <trace from={sel.U6.VCC} to="net.V3V3" />
     <trace from={sel.R4.pin2} to="net.V3V3" />
     <trace from={sel.U6.GND} to="net.GND" />
-    <trace from={sel.J1.SLEEVE} to="net.GND" />
+    <trace from={sel.J1.SHIELD} to="net.GND" />
     <trace from={sel.U6.VO} to="net.MIDI_RX" />
   </board>
 )

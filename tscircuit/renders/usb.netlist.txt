@@ -1,0 +1,267 @@
+COMPONENTS:
+ - USBC1: TYPE_C_31_M_12
+ - R1: 5.1kΩ res0402 resistor
+ - R3: 5.1kΩ res0402 resistor
+ - R15: 22Ω res0402 resistor
+ - R14: 22Ω res0402 resistor
+ - D2: USBLC6_2SC6
+ - U2: CH334R
+ - X2: X322512MSB4SI
+ - USB0: UB1112C_8FDE_4F
+ - USB1: UB1112C_8FDE_4F
+ - C12: 100uF 0805 capacitor
+ - C13: 100uF 0805 capacitor
+ - C14: 100uF 0805 capacitor
+ - C17: 100uF 0805 capacitor
+ - C19: 1uF 0402 capacitor
+ - C20: 1uF 0402 capacitor
+
+NET: CC1
+  - R1 pin1
+  - USBC1 A5
+
+NET: CC2
+  - R3 pin1
+  - USBC1 B5
+
+NET: USBD_DP_E
+  - D2 IO12
+  - R15 pin2
+
+NET: D_USB_P
+  - D2 IO11
+  - USBC1 B6
+  - USBC1 A6
+
+NET: USBD_DM_E
+  - D2 IO22
+  - R14 pin2
+
+NET: D_USB_N
+  - D2 IO21
+  - USBC1 B7
+  - USBC1 A7
+
+NET: VBUS
+  - D2 VBUS
+  - USBC1 A4B9
+  - USBC1 B4A9
+
+NET: X2_XO
+  - X2 OSC2
+  - U2 XO
+
+NET: X2_XI
+  - X2 OSC1
+  - U2 XI
+
+NET: HUB_DM1
+  - USB0 pin2
+  - U2 DM1
+
+NET: HUB_DP1
+  - USB0 pin3
+  - U2 DP1
+
+NET: HUB_DM2
+  - USB0 pin6
+  - U2 DM2
+
+NET: HUB_DP2
+  - USB0 pin7
+  - U2 DP2
+
+NET: HUB_DM4
+  - USB1 pin2
+  - U2 DM4
+
+NET: HUB_DP4
+  - USB1 pin3
+  - U2 DP4
+
+NET: HUB_DM3
+  - USB1 pin6
+  - U2 DM3
+
+NET: HUB_DP3
+  - USB1 pin7
+  - U2 DP3
+
+NET: V5V
+  - C19 pin1 (+)
+  - C17 pin1 (+)
+  - C14 pin1 (+)
+  - C13 pin1 (+)
+  - C12 pin1 (+)
+  - USB1 pin5
+  - USB1 pin1
+  - USB0 pin5
+  - USB0 pin1
+  - U2 V5
+
+NET: V3V3
+  - C20 pin1 (+)
+  - U2 VDD33
+
+NET: GND
+  - C20 pin2 (-)
+  - C19 pin2 (-)
+  - C17 pin2 (-)
+  - C14 pin2 (-)
+  - C13 pin2 (-)
+  - C12 pin2 (-)
+  - USB1 SHELL4
+  - USB1 SHELL3
+  - USB1 SHELL2
+  - USB1 SHELL1
+  - USB1 pin8
+  - USB1 pin4
+  - USB0 SHELL4
+  - USB0 SHELL3
+  - USB0 SHELL2
+  - USB0 SHELL1
+  - USB0 pin8
+  - USB0 pin4
+  - X2 GND1
+  - X2 GND2
+  - U2 GND
+  - D2 GND
+  - R3 pin2
+  - R1 pin2
+  - USBC1 EH3
+  - USBC1 EH4
+  - USBC1 EH1
+  - USBC1 EH2
+  - USBC1 B1A12
+  - USBC1 A1B12
+
+
+EMPTY NET PINS:
+  - R15 pin1
+  - R14 pin1
+  - U2 DPU
+  - U2 DMU
+  - U2 pin9
+
+COMPONENT_PINS:
+USBC1 (TYPE_C_31_M_12)
+- pin1(EH2): NETS(GND)
+- pin2(EH1): NETS(GND)
+- pin3(EH4): NETS(GND)
+- pin4(EH3): NETS(GND)
+- pin5(B8): NOT_CONNECTED
+- pin6(A5): NETS(CC1)
+- pin7(B7): NETS(D_USB_N)
+- pin8(A6): NETS(D_USB_P)
+- pin9(A7): NETS(D_USB_N)
+- pin10(B6): NETS(D_USB_P)
+- pin11(A8): NOT_CONNECTED
+- pin12(B5): NETS(CC2)
+- pin13(A1B12): NETS(GND)
+- pin14(B1A12): NETS(GND)
+- pin15(B4A9): NETS(VBUS)
+- pin16(A4B9): NETS(VBUS)
+
+R1 (5.1kΩ res0402)
+- pin1(anode, pos, left): NETS(CC1)
+- pin2(cathode, neg, right): NETS(GND)
+
+R3 (5.1kΩ res0402)
+- pin1(anode, pos, left): NETS(CC2)
+- pin2(cathode, neg, right): NETS(GND)
+
+R15 (22Ω res0402)
+- pin1(anode, pos, left): NETS(MCU_USBD_DP)
+- pin2(cathode, neg, right): NETS(USBD_DP_E)
+
+R14 (22Ω res0402)
+- pin1(anode, pos, left): NETS(MCU_USBD_DM)
+- pin2(cathode, neg, right): NETS(USBD_DM_E)
+
+D2 (USBLC6_2SC6)
+- pin1(IO11): NETS(D_USB_P)
+- pin2(GND): NETS(GND)
+- pin3(IO21): NETS(D_USB_N)
+- pin4(IO22): NETS(USBD_DM_E)
+- pin5(VBUS): NETS(VBUS)
+- pin6(IO12): NETS(USBD_DP_E)
+
+U2 (CH334R)
+- pin1(DM4): NETS(HUB_DM4)
+- pin2(DP4): NETS(HUB_DP4)
+- pin3(DM3): NETS(HUB_DM3)
+- pin4(DP3): NETS(HUB_DP3)
+- pin5(DM2): NETS(HUB_DM2)
+- pin6(DP2): NETS(HUB_DP2)
+- pin7(DM1): NETS(HUB_DM1)
+- pin8(DP1): NETS(HUB_DP1)
+- pin9: NETS(USB_HUB_RST)
+- pin10(DMU): NETS(MCU_USBH_DM)
+- pin11(DPU): NETS(MCU_USBH_DP)
+- pin12(V5): NETS(V5V)
+- pin13(VDD33): NETS(V3V3)
+- pin14(GND): NETS(GND)
+- pin15(XO): NETS(X2_XO)
+- pin16(XI): NETS(X2_XI)
+
+X2 (X322512MSB4SI)
+- pin1(OSC1): NETS(X2_XI)
+- pin1(OSC1): NOT_CONNECTED
+- pin2(GND1): NETS(GND)
+- pin2(GND1, GND): NOT_CONNECTED
+- pin3(OSC2): NETS(X2_XO)
+- pin3(OSC2): NOT_CONNECTED
+- pin4(GND2): NETS(GND)
+- pin4(GND2, GND): NOT_CONNECTED
+
+USB0 (UB1112C_8FDE_4F)
+- pin1: NETS(V5V)
+- pin2: NETS(HUB_DM1)
+- pin3: NETS(HUB_DP1)
+- pin4: NETS(GND)
+- pin5: NETS(V5V)
+- pin6: NETS(HUB_DM2)
+- pin7: NETS(HUB_DP2)
+- pin8: NETS(GND)
+- pin9(SHELL1): NETS(GND)
+- pin10(SHELL2): NETS(GND)
+- pin11(SHELL3): NETS(GND)
+- pin12(SHELL4): NETS(GND)
+
+USB1 (UB1112C_8FDE_4F)
+- pin1: NETS(V5V)
+- pin2: NETS(HUB_DM4)
+- pin3: NETS(HUB_DP4)
+- pin4: NETS(GND)
+- pin5: NETS(V5V)
+- pin6: NETS(HUB_DM3)
+- pin7: NETS(HUB_DP3)
+- pin8: NETS(GND)
+- pin9(SHELL1): NETS(GND)
+- pin10(SHELL2): NETS(GND)
+- pin11(SHELL3): NETS(GND)
+- pin12(SHELL4): NETS(GND)
+
+C12 (100uF 0805)
+- pin1(pos, anode, left): NETS(V5V)
+- pin2(neg, cathode, right): NETS(GND)
+
+C13 (100uF 0805)
+- pin1(pos, anode, left): NETS(V5V)
+- pin2(neg, cathode, right): NETS(GND)
+
+C14 (100uF 0805)
+- pin1(pos, anode, left): NETS(V5V)
+- pin2(neg, cathode, right): NETS(GND)
+
+C17 (100uF 0805)
+- pin1(pos, anode, left): NETS(V5V)
+- pin2(neg, cathode, right): NETS(GND)
+
+C19 (1uF 0402)
+- pin1(pos, anode, left): NETS(V5V)
+- pin2(neg, cathode, right): NETS(GND)
+
+C20 (1uF 0402)
+- pin1(pos, anode, left): NETS(V3V3)
+- pin2(neg, cathode, right): NETS(GND)

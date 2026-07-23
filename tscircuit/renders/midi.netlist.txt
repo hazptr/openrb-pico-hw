@@ -1,0 +1,61 @@
+COMPONENTS:
+ - J1: pinrow5
+ - R2: 220Ω res0402 resistor
+ - D1: D1, source_component
+ - U6: H11L1
+ - R4: 470Ω res0402 resistor
+
+NET: J1_MIDI_SRC
+  - J1 MIDI_SRC
+  - R2 pin1
+
+NET: U6_AN
+  - D1 pin2 (-)
+  - R2 pin2
+  - U6 AN
+
+NET: J1_MIDI_RTN
+  - D1 pin1 (+)
+  - J1 MIDI_RTN
+  - U6 CAT
+
+NET: V3V3
+  - R4 pin2
+  - U6 VCC
+
+NET: GND
+  - J1 SHIELD
+  - U6 GND
+
+NET: MIDI_RX
+  - U6 VO
+  - R4 pin1
+
+
+COMPONENT_PINS:
+J1
+- pin1(P1): NOT_CONNECTED
+- pin2(SHIELD): NETS(GND)
+- pin3(P3): NOT_CONNECTED
+- pin4(MIDI_SRC): NETS(J1_MIDI_SRC)
+- pin5(MIDI_RTN): NETS(J1_MIDI_RTN)
+
+R2 (220Ω res0402)
+- pin1(anode, pos, left): NETS(J1_MIDI_SRC)
+- pin2(cathode, neg, right): NETS(U6_AN)
+
+D1
+- pin1(pos, anode, left): NETS(J1_MIDI_RTN)
+- pin2(neg, cathode, right): NETS(U6_AN)
+
+U6 (H11L1)
+- pin1(AN): NETS(U6_AN)
+- pin2(CAT): NETS(J1_MIDI_RTN)
+- pin3(NC): NOT_CONNECTED
+- pin4(VO): NETS(MIDI_RX)
+- pin5(GND): NETS(GND)
+- pin6(VCC): NETS(V3V3)
+
+R4 (470Ω res0402)
+- pin1(anode, pos, left): NETS(MIDI_RX)
+- pin2(cathode, neg, right): NETS(V3V3)
